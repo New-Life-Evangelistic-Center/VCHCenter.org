@@ -3563,17 +3563,6 @@ input, select, textarea {
 
 /* Banner */
 
-	.bannerBody {
-		background-attachment: fixed;
-		background-image: url("images/banner.jpg");
-		background-position: center center;
-		background-size: cover;
-		min-height: 100vh;
-		position: relative;
-		z-index: 21;
-	}
-
-
 	#banner {
 		display: -moz-flex;
 		display: -webkit-flex;
