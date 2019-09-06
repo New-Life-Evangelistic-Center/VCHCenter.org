@@ -3718,6 +3718,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+		.bannerBody {
+				background-attachment: fixed;
+				background-image: url("images/banner.jpg");
+				background-position: center center;
+				background-size: cover;
+				box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: 100vh;
+				position: relative;
+				z-index: 21;
+			}
 			#banner {
 				padding: 7em 3em 5em 3em ;
 				height: auto;
@@ -3795,6 +3805,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+		.bannerBody {
+				background-attachment: fixed;
+				background-image: url("images/banner.jpg");
+				background-position: center center;
+				background-size: cover;
+				box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: 100vh;
+				position: relative;
+				z-index: 21;
+			}
 			#cta .inner {
 				display: block;
 				text-align: center;
@@ -3816,6 +3836,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+		.bannerBody {
+				background-attachment: fixed;
+				background-image: url("images/banner.jpg");
+				background-position: center center;
+				background-size: cover;
+				box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: 100vh;
+				position: relative;
+				z-index: 21;
+			}
 			#cta .inner .actions {
 				max-width: none;
 			}
@@ -3854,7 +3884,16 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 1680px) {
-
+		.bannerBody {
+				background-attachment: fixed;
+				background-image: url("images/banner.jpg");
+				background-position: center center;
+				background-size: cover;
+				box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+				min-height: 100vh;
+				position: relative;
+				z-index: 21;
+			}
 			#main > header {
 				padding: 10em 0 8em 0 ;
 			}
@@ -3862,7 +3901,17 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+		
+.bannerBody {
+		background-attachment: fixed;
+		background-image: url("images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		z-index: 21;
+	}
 			#main > header {
 				padding: 8em 3em 6em 3em ;
 			}
@@ -3871,6 +3920,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+.bannerBody {
+		background-attachment: fixed;
+		background-image: url("images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		z-index: 21;
+	}
 			#main > header {
 				padding: 10em 3em 8em 3em ;
 			}
@@ -3879,6 +3938,17 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+
+.bannerBody {
+		background-attachment: fixed;
+		background-image: url("images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		z-index: 21;
+	}
 			#main > header {
 				padding: 5em 3em 3em 3em ;
 			}
@@ -3947,6 +4017,16 @@ input, select, textarea {
 
 				@media screen and (max-width: 480px) {
 
+.bannerBody {
+		background-attachment: fixed;
+		background-image: url("images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		z-index: 21;
+	}
 					#footer .copyright li {
 						border: 0;
 						display: block;
@@ -3959,6 +4039,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+.bannerBody {
+		background-attachment: fixed;
+		background-image: url("images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		z-index: 21;
+	}
 			#footer {
 				padding: 4em 3em 2em 3em ;
 			}
@@ -3967,6 +4057,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+.bannerBody {
+		background-attachment: fixed;
+		background-image: url("images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		z-index: 21;
+	}
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
