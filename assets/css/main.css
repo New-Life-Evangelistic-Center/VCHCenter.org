@@ -4001,3 +4001,11 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	
+	.bannerBody {
+		background-attachment: fixed;
+		background-image: url("../../images/banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		position: relative;
+	}
