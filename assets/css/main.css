@@ -3445,7 +3445,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #2e3842;
-		height: 3em;
+		height: 2em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -3476,7 +3476,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#header h1 a {
-						font-size: 0.2em;
+						font-size: 0.8em;
 					}
 
 				}
