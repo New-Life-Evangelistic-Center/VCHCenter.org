@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -87,7 +81,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+		background: #272727;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1859,7 +1853,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #515151;
 		}
 
 	select {
@@ -1949,14 +1943,14 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #2e3842;
+			background: #272727;
 			color: #fff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #515151;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2077,7 +2071,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #FFFFFF;
 		}
 
 		.icon.style2 {
@@ -2486,7 +2480,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #AA6600;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2496,7 +2490,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #E68A00 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2603,7 +2597,7 @@ input, select, textarea {
 
 			.features li:before {
 				display: block;
-				color: #00ffcc;
+				color: #858685;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2816,8 +2810,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #515151;
+			color: #FFFFFF;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2849,7 +2843,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #FFFFFF;
 			}
 
 			.wrapper.style1 label {
@@ -2870,12 +2864,12 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #515151;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
 			.wrapper.style1 input[type="radio"] + label {
-				color: #c8ece9;
+				color: #FFFFFF;
 			}
 
 				.wrapper.style1 input[type="checkbox"] + label:before,
@@ -2886,7 +2880,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #515151;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -2975,11 +2969,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #272727;
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #323232;
 			color: #d3d4e4;
 		}
 
@@ -3033,7 +3027,7 @@ input, select, textarea {
 
 				.wrapper.style3 select option {
 					color: #ffffff;
-					background: #505393;
+					background: #515151;
 				}
 
 			.wrapper.style3 input[type="checkbox"] + label,
@@ -3049,7 +3043,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #505393;
+				color: #515151;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3147,11 +3141,11 @@ input, select, textarea {
 		}
 
 			.wrapper.style5 strong, .wrapper.style5 b {
-				color: #2E3842;
+				color: #272727;
 			}
 
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
-				color: #2E3842;
+				color: #272727;
 			}
 
 			.wrapper.style5 hr {
@@ -3179,7 +3173,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 label {
-				color: #2E3842;
+				color: #272727;
 			}
 
 			.wrapper.style5 input[type="text"],
@@ -3195,7 +3189,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style5 select option {
-					color: #2E3842;
+					color: #272727;
 					background: #ffffff;
 				}
 
@@ -3211,7 +3205,7 @@ input, select, textarea {
 
 			.wrapper.style5 input[type="checkbox"]:checked + label:before,
 			.wrapper.style5 input[type="radio"]:checked + label:before {
-				background: #2E3842;
+				background: #272727;
 				color: #ffffff;
 			}
 
@@ -3252,7 +3246,7 @@ input, select, textarea {
 				}
 
 			.wrapper.style5 table th {
-				color: #2E3842;
+				color: #272727;
 			}
 
 			.wrapper.style5 table thead {
@@ -3273,7 +3267,7 @@ input, select, textarea {
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
 				box-shadow: inset 0 0 0 2px #dfdfdf;
-				color: #2E3842;
+				color: #272727;
 			}
 
 				.wrapper.style5 input[type="submit"]:hover,
@@ -3350,7 +3344,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #696969;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3444,7 +3438,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #272727;
 		font-size: 0.95em;
 		height: 3em;
 		left: 0;
@@ -3568,10 +3562,6 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-attachment: fixed;
-		background-image: url("images/banner.jpg");
-		background-position: center center;
-		background-size: cover;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
@@ -3689,16 +3679,16 @@ input, select, textarea {
 
 		#banner:after {
 			pointer-events: none;
-			-moz-transition: opacity 3s ease-in-out;
-			-webkit-transition: opacity 3s ease-in-out;
-			-ms-transition: opacity 3s ease-in-out;
-			transition: opacity 3s ease-in-out;
+			-moz-transition: opacity 1s ease-in-out;
+			-webkit-transition: opacity 1s ease-in-out;
+			-ms-transition: opacity 1s ease-in-out;
+			transition: opacity 1s ease-in-out;
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #272727;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3818,10 +3808,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3890,7 +3880,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: #272727;
 		text-align: center;
 	}
 
@@ -3968,10 +3958,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3980,7 +3970,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color: rgba(10, 10, 10, 0.9);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -3989,10 +3979,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0.8)), url("../../images/banner.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4000,14 +3990,6 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
-	}
-	
-	.bannerBody {
-		background-attachment: fixed;
-		background-image: url("../../images/banner.jpg");
-		background-position: center center;
-		background-size: cover;
-		position: relative;
 	}
 	
 	.centerPage {
