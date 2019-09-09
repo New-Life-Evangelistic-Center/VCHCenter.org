@@ -3983,12 +3983,6 @@ input, select, textarea {
 		float: none;
 	}
 	
-		.leftPage {
-		margin-left: auto;
-		margin-right: auto;
-		float: none;
-	}
-
 	.selected {
 		color: black;
 	}
