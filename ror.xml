@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.vchcenter.org/</title>
+  <link>http://www.vchcenter.org/</link>
+
+<item>
+     <link>https://www.vchcenter.org/</link>
+     <title>Veterans Coming Home Center</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/about/</link>
+     <title>About Us</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/services/</link>
+     <title>Our Services</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/testimonies/</link>
+     <title>Testimonies</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/events/</link>
+     <title>Events</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/serve/</link>
+     <title>Serve With Us</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/study/</link>
+     <title>Bible Study</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/donate/</link>
+     <title>Donate</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
