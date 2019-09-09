@@ -52,24 +52,24 @@
 					
 					<section class="wrapper style3">
 					<div class="centerPage">
-					
 						<h4>Contact Us</h4>
 						
-						<form action="https://formsubmit.co/carice@nlecstl.org" method="POST" />
-						<h3>Name</h3>
-						<input type="name" name="name">
-						<h3>Email</h3>
-						<input type="email" name="email">
-						<h3>Message</h3>
-						<input type="message" name="message">
-						<!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
-						<input type="hidden" name="_subject" value="VCHC Message Form">
-						<input type="hidden" name="_captcha" value="true">
-						
-							  <button type="submit">Submit</button> 
+							  <div class="kwes-form"> 
+								  <form method="POST" action="https://kwes.io/api/foreign/forms/MJJz8R4EA6Sn4Pw1QGP1"> 
+									<label for="name">Your Name</label> 
+									<input type="text" name="name" rules="required"> 
+									<br>
+									<label for="email">Your Email</label> 
+									<input type="email" name="email" rules="required|email|max:255"> 
+									<br>
+									<label for="message">Your Message</label>
+									<textarea name="message" id="message" rules="required"></textarea>
+									<br>
+									<button type="submit">Submit</button> 
+								  </form> 
+								</div>
 
-						</div>
-									
+							</div>			
 						</div>					
 					</section>
 
@@ -97,6 +97,9 @@
 			<script src="../assets/js/breakpoints.min.js"></script>
 			<script src="../assets/js/util.js"></script>
 			<script src="../assets/js/main.js"></script>
+			
+		<!-- KWES Submission Form -->
+		<script src="https://kwes.io/js/kwes.js"></script>
 
 	</body>
 </html>
