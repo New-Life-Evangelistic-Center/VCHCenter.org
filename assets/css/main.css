@@ -2556,48 +2556,32 @@ input, select, textarea {
 		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(0, 0, 0, 0.035);
+				background-color: rgba(34, 177, 76);
 			}
 
 			.features li:nth-child(2) {
-				background-color: rgba(0, 0, 0, 0.07);
+				background-color: rgba(27, 177, 66);
 			}
 
 			.features li:nth-child(3) {
-				background-color: rgba(0, 0, 0, 0.105);
+				background-color: rgba(20, 177, 56);
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(0, 0, 0, 0.14);
+				background-color: rgba(18, 177, 46);
 			}
 
 			.features li:nth-child(5) {
-				background-color: rgba(0, 0, 0, 0.175);
+				background-color: rgba(11, 177, 38);
 			}
 
 			.features li:nth-child(6) {
-				background-color: rgba(0, 0, 0, 0.21);
-			}
-
-			.features li:nth-child(7) {
-				background-color: rgba(0, 0, 0, 0.245);
-			}
-
-			.features li:nth-child(8) {
-				background-color: rgba(0, 0, 0, 0.28);
-			}
-
-			.features li:nth-child(9) {
-				background-color: rgba(0, 0, 0, 0.315);
-			}
-
-			.features li:nth-child(10) {
-				background-color: rgba(0, 0, 0, 0.35);
+				background-color: rgba(8, 170, 30);
 			}
 
 			.features li:before {
 				display: block;
-				color: #858685;
+				color: #000;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
@@ -2973,8 +2957,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #323232;
-			color: #d3d4e4;
+			background-color: #191919;
+			color: #000;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3006,7 +2990,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style3 header.major p {
-				color: #d3d4e4;
+				color: #fff;
 			}
 
 			.wrapper.style3 label {
