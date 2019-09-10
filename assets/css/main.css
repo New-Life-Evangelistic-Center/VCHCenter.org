@@ -2566,27 +2566,27 @@ input, select, textarea {
 		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(170, 102, 0, 0.9);
+				background-color: rgba(255, 127, 39, 0.9);
 			}
 
 			.features li:nth-child(2) {
-				background-color: rgba(170, 102, 0, 0.8);
+				background-color: rgba(255, 127, 39, 0.8);
 			}
 
 			.features li:nth-child(3) {
-				background-color: rgba(170, 102, 0, 0.7);
+				background-color: rgba(255, 127, 39, 0.7);
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(170, 102, 0, 0.6);
+				background-color: rgba(255, 127, 39, 0.6);
 			}
 
 			.features li:nth-child(5) {
-				background-color: rgba(170, 102, 0, 0.5);
+				background-color: rgba(255, 127, 39, 0.5);
 			}
 
 			.features li:nth-child(6) {
-				background-color: rgba(170, 102, 0, 0.4);
+				background-color: rgba(255, 127, 39, 0.4);
 			}
 
 			.features li:before {
