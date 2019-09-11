@@ -2106,6 +2106,10 @@ input, select, textarea {
 		position: relative;
         width: 98%;
 		}
+		
+		.modalDialog {
+			display: none;
+		}
 }
 
 	.image {
