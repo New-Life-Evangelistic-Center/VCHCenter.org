@@ -4032,7 +4032,7 @@ input, select, textarea {
     pointer-events: auto;
 }
 .modalDialog > div {
-    width: 50%;
+    height: 90%;
     position: relative;
     position: absolute;
   top: 50%;
