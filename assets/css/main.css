@@ -4011,10 +4011,18 @@ input, select, textarea {
 		
 		.modalDialog {
 			display: none;
+			pointer-events: none;
+			cursor: default;
+			text-decoration: none;
+			color: black;
 		}
 		
 		.close {
 			display: none;
+			pointer-events: none;
+			cursor: default;
+			text-decoration: none;
+			color: black;
 		}
 }
 	
