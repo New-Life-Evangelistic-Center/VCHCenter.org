@@ -2084,6 +2084,12 @@ input, select, textarea {
 
 /* Image */
 
+	    .image.custom {
+			float: left;
+			margin: 0 2em 2em 0;
+			top: 0.25em;
+		}
+
 	@media screen and (max-width: 1024px) {
     .image {
 		border-radius: 3px;
@@ -2092,6 +2098,14 @@ input, select, textarea {
 		position: relative;
         width: 98%;
     }
+    
+    .image.custom {
+		border-radius: 3px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+        width: 98%;
+		}
 }
 
 	.image {
