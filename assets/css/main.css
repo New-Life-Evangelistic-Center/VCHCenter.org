@@ -2086,8 +2086,8 @@ input, select, textarea {
 
 	    .image.custom {
 			float: left;
-			margin: 0 2em 2em 0;
-			top: 0.25em;
+			margin-right: 15px;
+			clear:both;
 		}
 
 	.image {
@@ -3990,6 +3990,12 @@ input, select, textarea {
 	
 	.selected {
 		color: black;
+	}
+	
+	.paragraphImage {
+		margin-left: 0px;
+		overflow:auto;
+		display:block;
 	}
 	
 		@media screen and (max-width: 1024px) {
