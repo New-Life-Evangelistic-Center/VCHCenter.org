@@ -4012,6 +4012,10 @@ input, select, textarea {
 		.modalDialog {
 			display: none;
 		}
+		
+		.close {
+			display: none;
+		}
 }
 	
 	/* Modal */
