@@ -4017,7 +4017,7 @@ input, select, textarea {
 			color: black;
 		}
 		
-		.close {
+		.modalClose {
 			display: none;
 			pointer-events: none;
 			cursor: default;
@@ -4061,7 +4061,7 @@ input, select, textarea {
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff, #999);
 }
-.close {
+.modalClose {
     background: #606061;
     color: #FFFFFF;
     line-height: 25px;
@@ -4079,6 +4079,6 @@ input, select, textarea {
     -webkit-box-shadow: 1px 1px 3px #000;
     box-shadow: 1px 1px 3px #000;
 }
-.close:hover {
+.modalClose:hover {
     background: #00d9ff;
 }
