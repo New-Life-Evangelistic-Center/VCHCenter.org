@@ -1,0 +1,15 @@
+apple-touch-icon-152x152-precomposed.png (152x152)
+apple-touch-icon-120x120-precomposed.png (120x120)
+
+favicon.ico (196x196)
+256 x 256 pixels
+196 x 196 pixels
+180 x 180 pixels
+128 x 128 pixels
+96 x 96 pixels
+72 x 72 pixels
+64 x 64 pixels
+48 x 48 pixels
+32 x 32 pixels
+24 x 24 pixels
+16 x 16 pixels
