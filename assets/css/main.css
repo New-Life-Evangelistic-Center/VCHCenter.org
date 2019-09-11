@@ -3943,29 +3943,6 @@ input, select, textarea {
 			}
 
 		}
-		
-	@media screen and (max-width: 1024px) {
-    .image {
-		border-radius: 3px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-        width: 98%;
-    }
-    
-    .image.custom {
-		border-radius: 3px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-        width: 98%;
-		}
-		
-		.modalDialog {
-			display: none;
-		}
-}
-
 
 /* Landing */
 
@@ -4014,6 +3991,28 @@ input, select, textarea {
 	.selected {
 		color: black;
 	}
+	
+		@media screen and (max-width: 1024px) {
+    .image {
+		border-radius: 3px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+        width: 98%;
+    }
+    
+    .image.custom {
+		border-radius: 3px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+        width: 98%;
+		}
+		
+		.modalDialog {
+			display: none;
+		}
+}
 	
 	/* Modal */
 
