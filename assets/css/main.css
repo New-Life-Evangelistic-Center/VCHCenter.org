@@ -2086,8 +2086,8 @@ input, select, textarea {
 
 	    .image.custom {
 			float: left;
-			margin-right: 15px;
-			margin-bottom: 15px;
+			margin-right: 20px;
+			margin-bottom: 20px;
 			clear:both;
 		}
 
@@ -2630,7 +2630,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.features li {
-					padding: 3em 0 1em 0 ;
+					padding: 3em 3em 1em 3em ;
 					border-top: solid 2px #fff;
 					width: 100%;
 				}
@@ -2771,7 +2771,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3626,10 +3626,10 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
 			transition: transform 0.75s ease, opacity 0.75s ease;
-			-moz-transition-delay: 3.5s;
-			-webkit-transition-delay: 3.5s;
-			-ms-transition-delay: 3.5s;
-			transition-delay: 3.5s;
+			-moz-transition-delay: 1.5s;
+			-webkit-transition-delay: 1.5s;
+			-ms-transition-delay: 1.5s;
+			transition-delay: 1.5s;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3926,7 +3926,6 @@ input, select, textarea {
 						margin: 0;
 						padding: 0.5em 0;
 					}
-
 				}
 
 		@media screen and (max-width: 980px) {
@@ -3934,7 +3933,6 @@ input, select, textarea {
 			#footer {
 				padding: 4em 3em 2em 3em ;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3942,7 +3940,6 @@ input, select, textarea {
 			#footer {
 				padding: 3em 2em 1em 2em ;
 			}
-
 		}
 
 /* Landing */
@@ -3999,23 +3996,25 @@ input, select, textarea {
 		display:block;
 	}
 	
-		@media screen and (max-width: 1024px) {
-    .image {
-		border-radius: 3px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-        width: 98%;
-    }
-    
-    .image.custom {
-		border-radius: 3px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-        width: 98%;
+	@media screen and (max-width: 1024px) {
+		.image {
+			border-radius: 3px;
+			border: 0;
+			display: inline-block;
+			position: relative;
+			width: 98%;
 		}
 		
+		.image.custom {
+			border-radius: 3px;
+			border: 0;
+			display: inline-block;
+			position: relative;
+			width: 98%;
+			cursor: default;
+			pointer-events: none;
+			}
+			
 		.modalDialog {
 			display: none;
 			pointer-events: none;
@@ -4036,56 +4035,62 @@ input, select, textarea {
 	/* Modal */
 
 	.modalDialog {
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99999;
-    opacity:0;
-    -webkit-transition: opacity 400ms ease-in;
-    -moz-transition: opacity 400ms ease-in;
-    transition: opacity 400ms ease-in;
-    pointer-events: none;
-}
-.modalDialog:target {
-    opacity:1;
-    pointer-events: auto;
-}
-.modalDialog > div {
-    height: 90%;
-    position: relative;
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-    padding: 5px 20px 13px 20px;
-    border-radius: 10px;
-    background: #fff;
-    background: -moz-linear-gradient(#fff, #999);
-    background: -webkit-linear-gradient(#fff, #999);
-    background: -o-linear-gradient(#fff, #999);
-}
-.modalClose {
-    background: #606061;
-    color: #FFFFFF;
-    line-height: 25px;
-    position: absolute;
-    right: -12px;
-    text-align: center;
-    top: -10px;
-    width: 24px;
-    text-decoration: none;
-    font-weight: bold;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
-    -moz-box-shadow: 1px 1px 3px #000;
-    -webkit-box-shadow: 1px 1px 3px #000;
-    box-shadow: 1px 1px 3px #000;
-}
-.modalClose:hover {
-    background: #00d9ff;
-}
+		position: fixed;
+		font-family: Arial, Helvetica, sans-serif;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.9);
+		z-index: 99998;
+		opacity:0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+	.modalDialog:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+	.modalDialog > div {
+		height: 90%;
+		position: relative;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 5px 20px 13px 20px;
+		border-radius: 10px;
+		background: #fff;
+		background: rgba(100, 100, 100, 0.3);
+	}
+	.modalClose {
+		background: #606061;
+		color: #FFFFFF;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		-moz-box-shadow: 1px 1px 3px #000;
+		-webkit-box-shadow: 1px 1px 3px #000;
+		box-shadow: 1px 1px 3px #000;
+	}
+	.modalClose:hover {
+		background: #00d9ff;
+	}
+	.NormalView {
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		position: fixed;
+		cursor: default;
+	}
