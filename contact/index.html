@@ -65,17 +65,37 @@
 									<li>Saturday: 12:00PM to 3:45PM</li>
 									<li>Sundary: 12:00PM to 3:45PM</li>
 								</ul>
-								
-								<form action="https://{YOUR_APP_NAME}.herokuapp.com" action="POST">
-								  Name: <input type="text" name="name"><br>
-								  Email: <input type="text" name="email"><br>
-								  Message: <textarea name="message" cols="40" rows="5"></textarea>
-								  <input type="submit" value="Send Message">
-								</form> 
-								
+																
 								<h3>Schedule a Tour with Us</h3>
 								<p>We would love to show you our services and</p>
+
 								</center>
+						</section>
+
+						<article>
+						<section class="wrapper style4">
+								<!-- Make sure you don't change the form action-->
+								<form class="centerPage" action="https://api.staticforms.xyz/submit" method="post">
+									<!-- Replace with accesKey sent to your email -->
+									<input type="hidden" name="accessKey" value="4766e7b8-cac0-4687-8572-8d8b1622632e"> <!-- Required -->
+									<h5>Name</h5>
+									<input type="text" name="name"> <!-- Optional -->
+									<br>
+									<h5>Subject</h5>
+									<input type="text" name="subject"> <!-- Optional -->
+									<br>
+									<h5>Email</h5>
+									<input type="text" name="email"> <!-- Optional -->
+									<br>
+									<h5>Phone</h5>
+									<input type="text" name="phone"> <!-- Optional -->
+									<br>
+									<h5>Message</h5>
+									<textarea name="message"></textarea> <!-- Optional -->
+									<br>
+									<input type="text" name="honeypot" style="display: none;">
+									<input type="submit" value="Submit" />
+								</form>
 						</section>
 					</article>
 					
