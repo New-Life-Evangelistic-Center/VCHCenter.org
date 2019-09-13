@@ -74,31 +74,23 @@
 
 						<article>
 						<section class="wrapper style4">
-								<!-- Make sure you don't change the form action-->
 								<form class="centerPage" action="https://api.staticforms.xyz/submit" method="post">
+									<input type="text" name="name" placeholder="Your Name" required>
+									<br>
+									<input type="text" name="email" placeholder="Your Email" required>
+									<br>
+									<textarea name="message" required placeholder="Your Message" required></textarea>
+									<br>
+									<input type="text" name="honeypot" style="display:none">
 									<!-- Replace with accesKey sent to your email -->
-									<input type="hidden" name="accessKey" value="3abd7755-2024-4409-a116-77d25aff40c5"> <!-- Required -->
-									<h5>Name</h5>
-									<input type="text" name="name" required>
-									<br>
-									<h5>Subject</h5>
-									<input type="text" name="subject" required>
-									<br>
-									<h5>Email</h5>
-									<input type="text" name="email" required>
-									<br>
-									<h5>Phone</h5>
-									<input type="text" name="phone">
-									<br>
-									<h5>Message</h5>
-									<textarea name="message" required></textarea>
-									<br>
-									<input type="text" name="honeypot" style="display: none;">
+									<input type="hidden" name="accessKey" value="3abd7755-2024-4409-a116-77d25aff40c5">
+									<input type="hidden" name="subject" value="Contact us from - VCHCenter.org" />
 									<!-- Required to keep from going to spam folder -->
 									<input type="hidden" name="replyTo" value="@">
 									<input type="hidden" name="redirectTo" value="https://www.vchcenter.org/contact/#BigPicture">
 									<input type="submit" value="Submit" />
-									
+								</form>
+																	
 									<div id="BigPicture" class="modalDialog">
 									<a href="#NormalView" class="NormalView"></a>
 										<div>	
