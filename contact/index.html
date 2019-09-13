@@ -54,9 +54,9 @@
 						<section class="wrapper style5">
 							<div class="inner">
 								<center>
-								<h3>We would love to hear from you!</h3>
-								<h5>Hours of Operation</h5>
-								<ul style="display:table; margin:20 auto; text-align: left;">
+								<h2>We would love to hear from you!</h2>
+								<h3>Hours of Operation</h3>
+								<ul style="display: table; margin: 20 auto; text-align: left;">
 									<li>Monday: 8:00AM to 3:45PM</li>
 									<li>Tuesday: 8:00AM to 3:45PM</li>
 									<li>Wednesday: 8:00AM to 3:45PM</li>
@@ -65,6 +65,13 @@
 									<li>Saturday: 12:00PM to 3:45PM</li>
 									<li>Sundary: 12:00PM to 3:45PM</li>
 								</ul>
+								
+								<form action="https://{YOUR_APP_NAME}.herokuapp.com" action="POST">
+								  Name: <input type="text" name="name"><br>
+								  Email: <input type="text" name="email"><br>
+								  Message: <textarea name="message" cols="40" rows="5"></textarea>
+								  <input type="submit" value="Send Message">
+								</form> 
 								
 								<h3>Schedule a Tour with Us</h3>
 								<p>We would love to show you our services and</p>
