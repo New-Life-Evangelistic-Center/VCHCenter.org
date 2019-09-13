@@ -94,7 +94,20 @@
 									<textarea name="message"></textarea> <!-- Optional -->
 									<br>
 									<input type="text" name="honeypot" style="display: none;">
+									
+									<input type="hidden" name="redirectTo" value="#BigPicture"> <!-- Optional -->
+
 									<input type="submit" value="Submit" />
+									
+									<div id="BigPicture" class="modalDialog">
+									<a href="#NormalView" class="NormalView"></a>
+										<div>	
+											<a href="#modalClose" title="Close" class="modalClose">X</a>
+												<h2>Email Sent Successfully!</h2>
+												<img class="image custom nolinkPHONE" style="width: 100%; height: 100%;" src="../images/email.jpg" alt="Email Sent Successfully!">
+										</div>
+									</div>
+
 								</form>
 						</section>
 					</article>
