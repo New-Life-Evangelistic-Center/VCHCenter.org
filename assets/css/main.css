@@ -4011,28 +4011,7 @@ input, select, textarea {
 			display: inline-block;
 			position: relative;
 			width: 98%;
-			}
-			
-		.modalDialog {
-			display: none;
-			pointer-events: none;
-			cursor: default;
-			text-decoration: none;
-			color: black;
-		}
-		
-		.modalClose {
-			display: none;
-			pointer-events: none;
-			cursor: default;
-			text-decoration: none;
-			color: black;
-		}
-		
-		.nolinkPHONE {
-			cursor: default;
-			pointer-events: none;
-		}
+		}		
 }
 	
 	/* Modal */
@@ -4057,6 +4036,7 @@ input, select, textarea {
 		pointer-events: auto;
 	}
 	.modalDialog > div {
+		width: 60%;
 		height: 90%;
 		position: relative;
 		position: absolute;
@@ -4067,6 +4047,13 @@ input, select, textarea {
 		border-radius: 10px;
 		background: #fff;
 		background: rgba(100, 100, 100, 0.3);
+	}
+		.modalSummary {
+			opacity: 100%;
+			color: #fff;
+			overflow: scroll;
+			height: 100%;
+			width: 100%;
 	}
 	.modalClose {
 		background: #606061;
@@ -4096,4 +4083,113 @@ input, select, textarea {
 		left: 0;
 		position: fixed;
 		cursor: default;
+	}
+ 
+	.testimonial{
+		display: inline-block;
+		text-align: center;
+		margin: 15px 25px;
+		width: 27.9%;
+	}
+	.testimonial .pic{
+		display: inline-block;
+		width: 175px;
+		height: 175px;
+		border-radius: 25px;
+		border: 2px solid #6b2014;
+		box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
+		margin-bottom: 15px;
+		overflow: hidden;
+	}
+	.testimonial .pic img{
+		width: 100%;
+		height: auto;
+	}
+	.testimonial .description{
+		padding: 0 20px 20px;
+		font-size: 25px;
+		color: #333;
+		line-height: 30px;
+		border-radius: 25px;
+		border-bottom: 4px solid #6b2014;
+		box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
+		margin-bottom: 25px;
+	}
+	.testimonial .title{
+		display: block;
+		margin: 0 0 7px 0;
+		font-size: 20px;
+		font-weight: 600;
+		color: #6b2014;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	@media only screen and (max-width: 800px){
+		.testimonial{
+		display: inline-block;
+		text-align: center;
+		margin: 15px 0;
+		width: 100%;
+	}
+	.testimonial .pic{
+		display: inline-block;
+		width: 175px;
+		height: 175px;
+		border-radius: 25px;
+		border: 2px solid #6b2014;
+		box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
+		margin-bottom: 15px;
+		overflow: hidden;
+	}
+	.testimonial .pic img{
+		width: 100%;
+		height: auto;
+	}
+	.testimonial .description{
+		padding: 0 20px 20px;
+		font-size: 25px;
+		color: #333;
+		line-height: 30px;
+		border-radius: 25px;
+		border-bottom: 4px solid #6b2014;
+		box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
+		margin-bottom: 25px;
+	}
+	.testimonial .title{
+		display: block;
+		margin: 0 0 7px 0;
+		font-size: 20px;
+		font-weight: 600;
+		color: #6b2014;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	
+		.modalSummary {
+			opacity: 100%;
+			color: #fff;
+			overflow: scroll;
+			height: 100%;
+			width: 100%;
+		}
+		.modalDialog > div {
+			width: 90%;
+			height: 95%;
+			position: relative;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			padding: 5px 20px 13px 20px;
+			border-radius: 10px;
+			background: #fff;
+			background: rgba(100, 100, 100, 0.3);
+		}
+}
+
+	.calendar.fit {
+		display: block;
+		margin: 0 0 2em 0;
+		height: 35em;
+		width: 100%;
 	}
