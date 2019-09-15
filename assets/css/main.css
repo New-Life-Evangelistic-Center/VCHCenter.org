@@ -4195,7 +4195,7 @@ input, select, textarea {
 	}
 	
 	blockquote {
-	  font-size: 22px;
+	  font-size: 18px;
 	  margin: 0;
 	}
 
@@ -4204,15 +4204,6 @@ input, select, textarea {
 	  border-radius: 6px;
 	  font-family: Georgia, serif;
 	  line-height: 1.4;
-	  padding: 17px;
-	}
-
-	footer.author {
-	  background-color: transparent;
-	  font-weight: 500;
-	  font-size: 22px;
-	  line-height:22px;
-	  margin: 24px 0 0 18px;
 	}
 	
 	video {
@@ -4233,3 +4224,22 @@ input, select, textarea {
 		width: 100%;
 		height: 100%;
 	}
+blockquote {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 17px;
+}
+p.author {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 22px;
+  line-height:22px;
+  margin: 24px 0 0 18px;
+}
+strong {
+  color: rgb(68, 68, 68);
+}
