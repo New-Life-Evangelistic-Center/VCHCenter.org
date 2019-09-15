@@ -4107,7 +4107,7 @@ input, select, textarea {
 	}
 	.testimonial .description{
 		padding: 0 20px 20px;
-		font-size: 25px;
+		font-size: 15px;
 		color: #333;
 		line-height: 30px;
 		border-radius: 25px;
@@ -4147,7 +4147,7 @@ input, select, textarea {
 	}
 	.testimonial .description{
 		padding: 0 20px 20px;
-		font-size: 25px;
+		font-size: 15px;
 		color: #333;
 		line-height: 30px;
 		border-radius: 25px;
@@ -4192,4 +4192,25 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		height: 35em;
 		width: 100%;
+	}
+	
+	.blockquote {
+	  font-size: 22px;
+	  margin: 0;
+	}
+
+	.blockquote p {
+	  background-color: rgb(255, 255, 255);
+	  border-radius: 6px;
+	  font-family: Georgia, serif;
+	  line-height: 1.4;
+	  padding: 17px;
+	}
+
+	.footer.author {
+	  background-color: transparent;
+	  font-weight: 500;
+	  font-size: 22px;
+	  line-height:22px;
+	  margin: 24px 0 0 18px;
 	}
