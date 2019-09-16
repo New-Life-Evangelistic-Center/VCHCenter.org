@@ -2771,7 +2771,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 4em 0 4em 0 ;
+		padding: 2.5em 0 2em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -4240,6 +4240,28 @@ p.author {
   line-height:22px;
   margin: 24px 0 0 18px;
 }
-strong {
-  color: rgb(68, 68, 68);
-}
+	.signatureRight{
+	  color: rgb(68, 68, 68);
+	  margin: 15px;
+	  float: right;
+	}
+
+	.headerSmall {
+		background-color: #AA6600;
+		text-align: center;
+	}
+	
+	.TestimonyIcon {
+		font-size: 2.35em;
+		margin-right: 5px 5px 5px 5px;
+	}
+	.testimonial .picNone{
+		display: inline-block;
+		width: 175px;
+		height: 175px;
+		border-radius: 90px;
+		border: 2px solid #6b2014;
+		margin-bottom: 15px;
+		overflow: hidden;
+		float: center;
+	}
