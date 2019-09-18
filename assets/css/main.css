@@ -4085,15 +4085,6 @@ input, select, textarea {
 		width: 100%;
 	}
 	
-	.video-container {
-		transform: rotate(-90deg);
-	}
-
-	.video-container iframe, .video-container object, .video-container embed {
-		transform: rotate(-90deg);
-	}	
-
-	
 		.modalSummary {
 			opacity: 100%;
 			color: #fff;
