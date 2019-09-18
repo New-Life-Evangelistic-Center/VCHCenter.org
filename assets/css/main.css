@@ -4277,6 +4277,7 @@ input, select, textarea {
 		padding-top: 30px;
 		height: 0;
 		overflow: hidden;
+		orientation: portrait;
 	}
 
 	.video-container iframe, .video-container object, .video-container embed {
@@ -4285,8 +4286,9 @@ input, select, textarea {
 		left: 0;
 		height: 100%;
 		width: 100%;
+		orientation: portrait;
 	}	
-	
+
 	.imageWrapper {
 		position: absolute;
 		transform: translate(-50%, -50%);
