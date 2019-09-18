@@ -3989,14 +3989,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-	
-	.centerPage {
-		margin-left: auto;
-		margin-right: auto;
-		width: 90%;
-		float: none;
-	}
-	
+		
 	.selected {
 		color: black;
 	}
