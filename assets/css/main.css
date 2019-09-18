@@ -4286,6 +4286,7 @@ input, select, textarea {
 		height: 100%;
 		width: 100%;
 	}	
+	
 	.imageWrapper {
 		position: absolute;
 		transform: translate(-50%, -50%);
