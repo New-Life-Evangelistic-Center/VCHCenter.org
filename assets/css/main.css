@@ -4085,6 +4085,15 @@ input, select, textarea {
 		width: 100%;
 	}
 	
+	.video-container {
+		transform: rotate(-90deg);
+	}
+
+	.video-container iframe, .video-container object, .video-container embed {
+		transform: rotate(-90deg);
+	}	
+
+	
 		.modalSummary {
 			opacity: 100%;
 			color: #fff;
@@ -4277,7 +4286,6 @@ input, select, textarea {
 		padding-top: 30px;
 		height: 0;
 		overflow: hidden;
-		orientation: portrait;
 	}
 
 	.video-container iframe, .video-container object, .video-container embed {
@@ -4286,7 +4294,6 @@ input, select, textarea {
 		left: 0;
 		height: 100%;
 		width: 100%;
-		orientation: portrait;
 	}	
 
 	.imageWrapper {
