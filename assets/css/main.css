@@ -2123,11 +2123,20 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
+			.image.fit {
+				display: block;
+				margin: 0 0 2em 0;
+				width: 100%;
+			}
+			
+			.fitVertical {
+				position: absolute;
+				transform: translate(-50%, -50%);
+				top: 50%;
+				left: 50%;
+				height: 50%;
+				width: auto;
+			}
 
 			.image.fit img {
 				width: 100%;
@@ -2559,29 +2568,33 @@ input, select, textarea {
 			text-align: left;
 			width: 50%;
 		}
+		
+		.features h3 {
+			color: #000 !important;
+		}
 
 			.features li:nth-child(1) {
-				background-color: rgba(254, 143, 22, 0.8);
+				background-color: rgba(254, 143, 22, 0.96);
 			}
 
 			.features li:nth-child(2) {
-				background-color: rgba(254, 143, 22, 0.75);
+				background-color: rgba(254, 143, 22, 0.92);
 			}
 
 			.features li:nth-child(3) {
-				background-color: rgba(254, 143, 22, 0.7);
+				background-color: rgba(254, 143, 22, 0.88);
 			}
 
 			.features li:nth-child(4) {
-				background-color: rgba(254, 143, 22, 0.65);
+				background-color: rgba(254, 143, 22, 0.84);
 			}
 
 			.features li:nth-child(5) {
-				background-color: rgba(254, 143, 22, 0.6);
+				background-color: rgba(254, 143, 22, 0.80);
 			}
 
 			.features li:nth-child(6) {
-				background-color: rgba(254, 143, 22, 0.55);
+				background-color: rgba(254, 143, 22, 0.76);
 			}
 
 			.features li:before {
@@ -4016,7 +4029,7 @@ input, select, textarea {
 
 	.modalDialog {
 		position: fixed;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Century Gothic;
 		top: 0;
 		right: 0;
 		bottom: 0;
@@ -4034,7 +4047,7 @@ input, select, textarea {
 		pointer-events: auto;
 	}
 	.modalDialog > div {
-		width: 60%;
+		width: 65%;
 		height: 90%;
 		position: relative;
 		position: absolute;
@@ -4045,34 +4058,15 @@ input, select, textarea {
 		border-radius: 10px;
 		background: #fff;
 		background: rgba(100, 100, 100, 0.3);
+		font-size: 20px;
+		line-height: 32px;
 	}
-		.modalSummary {
-			opacity: 100%;
-			color: #fff;
-			overflow: scroll;
-			height: 100%;
-			width: 100%;
-	}
-	.modalClose {
-		background: #606061;
-		color: #FFFFFF;
-		line-height: 25px;
-		position: absolute;
-		right: -12px;
-		text-align: center;
-		top: -10px;
-		width: 24px;
-		text-decoration: none;
-		font-weight: bold;
-		-webkit-border-radius: 12px;
-		-moz-border-radius: 12px;
-		border-radius: 12px;
-		-moz-box-shadow: 1px 1px 3px #000;
-		-webkit-box-shadow: 1px 1px 3px #000;
-		box-shadow: 1px 1px 3px #000;
-	}
-	.modalClose:hover {
-		background: #00d9ff;
+	.modalSummary {
+		opacity: 100%;
+		color: #fff;
+		overflow: scroll;
+		height: 100%;
+		width: 100%;
 	}
 	.NormalView {
 		top: 0;
@@ -4089,78 +4083,13 @@ input, select, textarea {
 		margin: 15px 25px;
 		width: 27.9%;
 	}
-	.testimonial .pic{
-		display: inline-block;
-		width: 175px;
-		height: 175px;
-		border-radius: 25px;
-		border: 2px solid #6b2014;
-		box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
-		margin-bottom: 15px;
-		overflow: hidden;
-	}
-	.testimonial .pic img{
-		width: 100%;
-		height: auto;
-	}
-	.testimonial .description{
-		padding: 0 20px 20px;
-		font-size: 15px;
-		color: #333;
-		line-height: 30px;
-		border-radius: 25px;
-		border-bottom: 4px solid #6b2014;
-		box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
-		margin-bottom: 25px;
-	}
-	.testimonial .title{
-		display: block;
-		margin: 0 0 7px 0;
-		font-size: 20px;
-		font-weight: 600;
-		color: #6b2014;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-	}
+
 	@media only screen and (max-width: 800px){
 		.testimonial{
 		display: inline-block;
 		text-align: center;
 		margin: 15px 0;
 		width: 100%;
-	}
-	.testimonial .pic{
-		display: inline-block;
-		width: 175px;
-		height: 175px;
-		border-radius: 25px;
-		border: 2px solid #6b2014;
-		box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
-		margin-bottom: 15px;
-		overflow: hidden;
-	}
-	.testimonial .pic img{
-		width: 100%;
-		height: auto;
-	}
-	.testimonial .description{
-		padding: 0 20px 20px;
-		font-size: 15px;
-		color: #333;
-		line-height: 30px;
-		border-radius: 25px;
-		border-bottom: 4px solid #6b2014;
-		box-shadow: 0 7px rgba(0, 0, 0, 0.1), 0 5px #e4ac01;
-		margin-bottom: 25px;
-	}
-	.testimonial .title{
-		display: block;
-		margin: 0 0 7px 0;
-		font-size: 20px;
-		font-weight: 600;
-		color: #6b2014;
-		letter-spacing: 1px;
-		text-transform: uppercase;
 	}
 	
 		.modalSummary {
@@ -4171,7 +4100,7 @@ input, select, textarea {
 			width: 100%;
 		}
 		.modalDialog > div {
-			width: 90%;
+			width: 85%;
 			height: 95%;
 			position: relative;
 			position: absolute;
@@ -4184,7 +4113,7 @@ input, select, textarea {
 			background: rgba(100, 100, 100, 0.3);
 		}
 		
-		.VideoModalDialog > div {
+		.MediaModalDialog > div {
 			width: 95%;
 			height: 95%;
 			position: relative;
@@ -4194,6 +4123,9 @@ input, select, textarea {
 			transform: translate(-50%, -50%);
 			border-radius: 10px;
 		}
+		.nolinkPHONE {
+			pointer-events: none;
+	}
 }
 
 	.calendar.fit {
@@ -4268,11 +4200,42 @@ input, select, textarea {
 		font-size: 1.5em;
 	}
 	
+	.testimonialButton {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: transparent;
+		border-radius: 3px;
+		border: 0;
+		box-shadow: inset 0 0 0 2px #DFDFDF;
+		color: #000;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 0.7em;
+		font-weight: 500;
+		height: 3.125em;
+		letter-spacing: 0.225em;
+		line-height: 3.125em;
+		max-width: 30em;
+		padding: 0 2.50em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
 		/* Video Modal */
 
-	.VideoModalDialog {
+	.MediaModalDialog {
 		position: fixed;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Century Gothic;
 		top: 0;
 		right: 0;
 		bottom: 0;
@@ -4285,11 +4248,18 @@ input, select, textarea {
 		transition: opacity 400ms ease-in;
 		pointer-events: none;
 	}
-	.VideoModalDialog:target {
+	.MediaNormalView {
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		position: fixed;
+	}
+	.MediaModalDialog:target {
 		opacity:1;
 		pointer-events: auto;
 	}
-	.VideoModalDialog > div {
+	.MediaModalDialog > div {
 		width: 60%;
 		height: 90%;
 		position: relative;
@@ -4300,33 +4270,12 @@ input, select, textarea {
 		padding: 5px 20px 13px 20px;
 		border-radius: 10px;
 	}
-		.VideoModalSummary {
+		.MediaModalSummary {
 			opacity: 100%;
 			color: #fff;
 			overflow: scroll;
 			height: 100%;
 			width: 100%;
-	}
-	.VideoModalClose {
-		background: #606061;
-		color: #FFFFFF;
-		line-height: 25px;
-		position: absolute;
-		right: -12px;
-		text-align: center;
-		top: -10px;
-		width: 24px;
-		text-decoration: none;
-		font-weight: bold;
-		-webkit-border-radius: 12px;
-		-moz-border-radius: 12px;
-		border-radius: 12px;
-		-moz-box-shadow: 1px 1px 3px #000;
-		-webkit-box-shadow: 1px 1px 3px #000;
-		box-shadow: 1px 1px 3px #000;
-	}
-	.VideoModalClose:hover {
-		background: #00d9ff;
 	}
 
 	.videoWrapper {
@@ -4345,8 +4294,30 @@ input, select, textarea {
 		width: 100%;
 		height: 100%;
 	}
+	
+	.imageWrapper {
+		position: absolute;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		left: 50%;
+		height: 95%;
+		width: auto;
+	}
 
 	::-webkit-scrollbar {
 	  width: 0px;
 	  height: 0px;
 	}
+	
+	.TextHighlight {
+		background-color: #9D3F00
+	}
+	
+	.MediumMap {
+		width:100%;height:400px;
+	}
+	
+	.DisplayNone {
+		display: none !important;
+	}
+	
