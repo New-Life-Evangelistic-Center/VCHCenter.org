@@ -2535,9 +2535,9 @@ input, select, textarea {
 		background: rgba(0, 0, 0, 0.6);
 		z-index: 99998;
 		opacity:0;
-		-webkit-transition: opacity 100ms ease-in;
-		-moz-transition: opacity 100ms ease-in;
-		transition: opacity 100ms ease-in;
+		-webkit-transition: opacity 150ms ease-in;
+		-moz-transition: opacity 150ms ease-in;
+		transition: opacity 150ms ease-in;
 		pointer-events: none;
 	}
 		#blur {
