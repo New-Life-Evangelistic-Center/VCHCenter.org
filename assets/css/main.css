@@ -2532,7 +2532,7 @@ input, select, textarea {
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: rgba(0, 0, 0, 0.9);
+		background: rgba(0, 0, 0, 0.6);
 		z-index: 99998;
 		opacity:0;
 		-webkit-transition: opacity 400ms ease-in;
@@ -2540,6 +2540,13 @@ input, select, textarea {
 		transition: opacity 400ms ease-in;
 		pointer-events: none;
 	}
+		#blur {
+		-webkit-filter: blur(5px);
+		-webkit-backdrop-filter: blur(5px);
+		backdrop-filter: blur(5px);
+		filter: blur(5px);
+	}
+
 	.ModalDialog:target {
 		opacity:1;
 		pointer-events: auto;
@@ -2555,9 +2562,10 @@ input, select, textarea {
 		padding: 5px 20px 13px 20px;
 		border-radius: 10px;
 		background: #fff;
-		background: rgba(100, 100, 100, 0.3);
+		background: rgba(10, 10, 10, 0.7);
 		font-size: 20px;
 		line-height: 32px;
+		z-index: 99996;
 	}
 	.ModalSummary {
 		opacity: 100%;
@@ -2586,8 +2594,6 @@ input, select, textarea {
 		overflow: hidden;
 	}
 	
-	.MailContainer {
-		width: 60%;
 		position: absolute;
 		top: 50%;
 		left: 50%;
