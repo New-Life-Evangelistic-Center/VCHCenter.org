@@ -2535,9 +2535,9 @@ input, select, textarea {
 		background: rgba(0, 0, 0, 0.6);
 		z-index: 99998;
 		opacity:0;
-		-webkit-transition: opacity 150ms ease-in;
-		-moz-transition: opacity 150ms ease-in;
-		transition: opacity 150ms ease-in;
+		-webkit-transition: opacity 100ms ease-in;
+		-moz-transition: opacity 100ms ease-in;
+		transition: opacity 100ms ease-in;
 		pointer-events: none;
 	}
 		#blur {
@@ -2555,7 +2555,6 @@ input, select, textarea {
 		width: 65%;
 		height: 90%;
 		position: relative;
-		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -2567,7 +2566,6 @@ input, select, textarea {
 		z-index: 99996;
 	}
 	.ModalSummary {
-		opacity: 100%;
 		color: #fff;
 		overflow: scroll;
 		height: 100%;
