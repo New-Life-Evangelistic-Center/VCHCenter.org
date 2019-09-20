@@ -2461,7 +2461,7 @@ input, select, textarea {
 	
 	.TestimonyIcon {
 		font-size: 1.9em;
-		margin-right: 5px 5px 5px 5px;
+		margin-right: 5px;
 	}
 
 	.testimonial .pic{
@@ -2586,11 +2586,10 @@ input, select, textarea {
 		overflow: hidden;
 	}
 	.container .centerImage {
-		position: fixed;
+		position: absolute;
 		top: 50%;
 		left: 50%;
-		margin-top: -50px;
-		margin-left: -100px;
+		transform: translate(-50%, -50%);
 	}
 	
 	/* Hide Scrollbar */
@@ -2611,6 +2610,21 @@ input, select, textarea {
 			margin: 0;
 			width: 100%;
 		}
+		.ModalDialog > div {
+			width: 85%;
+			height: 90%;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			padding: 5px 20px 13px 20px;
+			border-radius: 10px;
+			background: rgba(10, 10, 10, 0.7);
+			font-size: 20px;
+			line-height: 32px;
+			z-index: 99996;
+		}
+
 	
 		.PhoneNoLink {
 			pointer-events: none;
