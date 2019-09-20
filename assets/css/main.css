@@ -2600,7 +2600,7 @@ input, select, textarea {
 		scrollbar-width: none;  // Firefox
 	}
 	::-webkit-scrollbar {
-		display: none
+		display: none;
 		width: 0px;
 		background: transparent; 
 	}
