@@ -2142,7 +2142,7 @@ input, select, textarea {
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
-			margin-left: -8.5em;
+			margin-left: -8.1em;
 			opacity: 1;
 			outline: 0;
 			padding-left: 0.225em;
@@ -2398,7 +2398,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(10, 10, 10, 0.9);
+		background-color: rgba(39, 39, 39);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -2419,31 +2419,23 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-		
+	
+	/* CUSTOM ENTRIES */
+	
 	.selected {
 		color: black;
 	}
-	
 	.TextRight {
 		margin-left: 0px;
 		overflow:auto;
 		display:block;
 	}
-	 
-	.testimonial{
-		display: inline-block;
-		text-align: center;
-		margin: 15px 25px;
-		width: 27.9%;
-	}
-
 	.calendar.fit {
 		display: block;
 		margin: 0 0 2em 0;
 		height: 35em;
 		width: 100%;
 	}
-	
 	blockquote {
 	  background-color: rgb(255, 255, 255);
 	  border-radius: 6px;
@@ -2453,18 +2445,24 @@ input, select, textarea {
 	  margin: 0;
 	  padding: 17px;
 	}
-	
 	.headerSmall {
 		background-color: #AA6600;
 		text-align: center;
 	}
 	
-	.TestimonyIcon {
+	/* Testimonial */
+	
+	.testimonial {
+		display: inline-block;
+		text-align: center;
+		margin: 15px 25px;
+		width: 27.9%;
+	}
+	.testimonialIcon {
 		font-size: 1.9em;
 		margin-right: 5px;
 	}
-
-	.testimonial .pic{
+	.testimonial.pic {
 		display: inline-block;
 		width: 175px;
 		height: 175px;
@@ -2474,11 +2472,7 @@ input, select, textarea {
 		overflow: hidden;
 		float: center;
 	}
-	
-	.bibleVerse {
-		font-size: 1.5em;
-	}
-	
+
 	.testimonialButton {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2509,13 +2503,31 @@ input, select, textarea {
 		overflow: hidden;
 		text-overflow: ellipsis;
 	}
-
-	.MediumMap {
-		width:100%;height:400px;
-	}
 	
-	.HoneyPot {
-		display: none !important;
+		@media screen and (max-width: 1280px) {
+			.testimonial{
+				display: inline-block;
+				margin: 0;
+				text-align: center;
+				margin: 5px 10px;
+				width: 27.9%;
+			}
+	}
+		@media screen and (max-width: 980px) {
+			.testimonial{
+				display: inline-block;
+				margin: 0;
+				text-align: left;
+				width: 100%;
+			}
+	}
+		@media screen and (max-width: 736px) {
+			.testimonial{
+				display: inline-block;
+				margin: 0;
+				text-align: center;
+				width: 100%;
+			}
 	}
 	
 	/* Modal */
@@ -2527,15 +2539,15 @@ input, select, textarea {
 		right: 0;
 		bottom: 0;
 		left: 0;
-		background: rgba(0, 0, 0, 0.6);
+		background: rgba(0, 0, 0, 0.7);
 		z-index: 99998;
 		opacity:0;
-		-webkit-transition: opacity 100ms ease-in;
-		-moz-transition: opacity 100ms ease-in;
-		transition: opacity 100ms ease-in;
+		-webkit-transition: opacity 160ms ease-in;
+		-moz-transition: opacity 160ms ease-in;
+		transition: opacity 160ms ease-in;
 		pointer-events: none;
 	}
-		#blur {
+	.blur {
 		-webkit-filter: blur(5px);
 		-webkit-backdrop-filter: blur(5px);
 		backdrop-filter: blur(5px);
@@ -2555,7 +2567,7 @@ input, select, textarea {
 		transform: translate(-50%, -50%);
 		padding: 5px 20px 13px 20px;
 		border-radius: 10px;
-		background: rgba(10, 10, 10, 0.7);
+		background: rgba(0, 0, 0, 0.7);
 		font-size: 20px;
 		line-height: 32px;
 		z-index: 99996;
@@ -2573,7 +2585,6 @@ input, select, textarea {
 		left: 0;
 		position: fixed;
 	}
-	
 	.container {
 		width: 100%;
 		position: absolute;
@@ -2584,13 +2595,85 @@ input, select, textarea {
 		text-align: center;
 		overflow: hidden;
 	}
-	.container .centerImage {
+	.container.mail {
+		height: 100%;
+	}
+
+	.container.centerImage {
 		position: absolute;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 	}
 	
+		@media screen and (max-width: 736px) {
+			.ModalDialog > div {
+				width: 85%;
+				height: 90%;
+				position: relative;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				padding: 5px 20px 13px 20px;
+				border-radius: 10px;
+				background: rgba(10, 10, 10, 0.7);
+				font-size: 20px;
+				line-height: 32px;
+				z-index: 99996;
+			}
+}
+
+	/*ImageModal*/
+	
+		.ImageModalDialog {
+		position: fixed;
+		font-family: Century Gothic;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.7);
+		z-index: 99998;
+		opacity:0;
+		-webkit-transition: opacity 100ms ease-in;
+		-moz-transition: opacity 100ms ease-in;
+		transition: opacity 100ms ease-in;
+		pointer-events: none;
+	}
+
+	.ImageModalDialog:target {
+		opacity:1;
+		pointer-events: auto;
+	}
+	.ImageModalDialog > div {
+		width: 60%;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 5px 20px 13px 20px;
+		border-radius: 10px;
+		font-size: 20px;
+		line-height: 32px;
+		z-index: 99996;
+	}
+	
+		@media screen and (max-width: 736px) {
+			.ImageModalDialog > div {
+				width: 85%;
+				position: relative;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				padding: 5px 20px 13px 20px;
+				border-radius: 10px;
+				font-size: 20px;
+				line-height: 32px;
+				z-index: 99996;
+			}
+}
+
+
 	/* Hide Scrollbar */
 
 	html {
@@ -2606,35 +2689,25 @@ input, select, textarea {
 		width: 233px;
 		height: 175px;
 	}
-
-	@media only screen and (max-width: 800px){
-		.testimonial{
-			display: inline-block;
-			margin: 0;
-			width: 100%;
-		}
-		.ModalDialog > div {
-			width: 85%;
-			height: 90%;
-			position: relative;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			padding: 5px 20px 13px 20px;
-			border-radius: 10px;
-			background: rgba(10, 10, 10, 0.7);
-			font-size: 20px;
-			line-height: 32px;
-			z-index: 99996;
-		}
-		.image.fitMobile {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100% !important;
-			height: auto !important;
-		}
-		.PhoneNoLink {
-			pointer-events: none;
+	.bibleVerse {
+		font-size: 1.5em;
 	}
+	.MediumMap {
+		width:100%;height:400px;
+	}
+	.HoneyPot {
+		display: none !important;
+	}
+
+		@media screen and (max-width: 736px) {
+			.image.fitMobile {
+				display: block;
+				margin: 0 0 2em 0;
+				width: 100% !important;
+				height: auto !important;
+			}
+			.MobileNoLink {
+				pointer-events: none;
+		}
 }
 
