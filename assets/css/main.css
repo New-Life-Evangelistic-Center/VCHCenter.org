@@ -2698,6 +2698,9 @@ input, select, textarea {
 	.HoneyPot {
 		display: none !important;
 	}
+	.imagesHalfScreen {
+		width: 45%;
+	}
 
 		@media screen and (max-width: 736px) {
 			.image.fitMobile {
