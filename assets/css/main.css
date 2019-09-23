@@ -2698,7 +2698,7 @@ input, select, textarea {
 	.HoneyPot {
 		display: none !important;
 	}
-	.imagesHalfScreen {
+	.image.halfWidth {
 		width: 45%;
 	}
 
