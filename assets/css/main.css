@@ -2335,7 +2335,7 @@ input, select, textarea {
 			}
 
 				#main > header h2 {
-					font-size: 1.25em;
+					font-size: 1.4	em;
 					margin: 0 0 1em 0;
 				}
 
@@ -2663,7 +2663,7 @@ input, select, textarea {
 
 	/*ImageModal*/
 	
-		.ImageModalDialog {
+	.ImageModalDialog {
 		position: fixed;
 		font-family: Century Gothic;
 		top: 0;
