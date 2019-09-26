@@ -65,6 +65,22 @@
      <title>Donate</title>
      <description>Veterans Coming Home Center</description>
      <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/resources/</link>
+     <title>Resources</title>
+     <description>Veterans Coming Home Center</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.vchcenter.org/resources/HousingResources.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
