@@ -313,8 +313,6 @@ input, select, textarea {
 		color: #fff;
 		display: block;
 		font-size: 0.9em;
-		font-weight: 600;
-		margin: 0 0 1em 0;
 	}
 
 	input[type="text"],
@@ -2462,6 +2460,9 @@ input, select, textarea {
 	
 	/* CUSTOM ENTRIES */
 	
+	.SmallButton {
+		font-size: 0.8em;
+	}
 	.selected {
 		color: black;
 	}
@@ -2484,7 +2485,7 @@ input, select, textarea {
 	/* Testimonial */
 	
 	.testimonialIcon {
-		font-size: 1.4em;
+		font-size: 2.5em;
 		margin-right: 5px;
 		margin-bottom: 15px;
 	}
