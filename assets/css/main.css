@@ -2462,6 +2462,7 @@ input, select, textarea {
 	
 	.SmallButton {
 		font-size: 0.8em;
+		width: 24em;
 	}
 	.selected {
 		color: black;
@@ -2551,7 +2552,6 @@ input, select, textarea {
 		backdrop-filter: blur(5px);
 		filter: blur(5px);
 	}
-
 	.ModalDialog:target {
 		opacity:1;
 		pointer-events: auto;
@@ -2702,6 +2702,12 @@ input, select, textarea {
 	.image.halfWidth {
 		width: 45%;
 	}
+	.label {
+		color: #fff;
+		display: block;
+		font-size: 0.9em;
+	}
+
 
 		@media screen and (max-width: 736px) {
 			.image.fitMobile {
