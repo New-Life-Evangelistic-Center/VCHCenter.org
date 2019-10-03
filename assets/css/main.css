@@ -2675,12 +2675,30 @@ input, select, textarea {
 			}
 }
 
-
-	/* Hide Scrollbar */
-
+	@-moz-document url-prefix() {
+		html{
+		  scrollbar-width: none;
+		}
+	  }
+	  body {
+		margin: 0;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+		overflow-y: scroll;
+	  }
+	  .noscrollbar {
+		margin: 0;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+		overflow-y: scroll;
+	  }
+	  body::-webkit-scrollbar {
+		width: 0px;
+		background: transparent;
+	  }
 	html {
 		-ms-overflow-style: none;
-		overflow: -moz-scrollbars-none;
+		overflow: -moz-scrollbars-none !important;
 	}
 	::-webkit-scrollbar {
 		display: none;
