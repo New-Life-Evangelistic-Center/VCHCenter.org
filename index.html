@@ -3,18 +3,20 @@
 	<head>
 		<title>Veterans Coming Home Center</title>
 		<meta charset="utf-8" />
-		<!-- Search Engines -->
-		<meta name="description" content="Working to be there when people are hurting! The only day shelter in Springfield, MO.">
 		<!-- Standard -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/nav.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
-		<meta name="msvalidate.01" content="A4315AA0E98BBDC5E6B44E36B03FC3B7" />
 		<!-- favicon -->
 		<link rel="icon" href ="favicon.ico" type="image/x-icon" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120-precomposed.png" />
 		<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152-precomposed.png" />
+		<!-- Search Engines -->
+		<meta name="description" content="Working to be there when people are hurting! The only day shelter in Springfield, MO.">
+		<meta name="robots" content="index, follow" />
+		<meta name="msvalidate.01" content="A4315AA0E98BBDC5E6B44E36B03FC3B7" />
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149377867-1"></script>
 		<script>
@@ -24,6 +26,33 @@
 
 		  gtag('config', 'UA-149377867-1');
 		</script>
+		<!-- Open Graph (Social Eg. Facebook) -->
+		<meta property="og:title" content="Veterans Coming Home Center" />
+		<meta property="og:image" content="https://www.vchcenter.org/images/Main.png" />
+		<meta property="og:url" content="https://www.vchcenter.org/" />
+		<meta property="og:site_name" content="Veterans Coming Home Center" />
+		<meta property="og:description" content="The only day shelter in Springfield, MO"/>
+		<!-- Web Crawler Information -->
+		<script type="application/ld+json">
+			{
+			"@context" : "http://schema.org",
+			"url" : "https://www.vchcenter.org/",
+			"contactPoint" : [{
+			  "@type" : "ContactPoint",
+			  "website" : "https://www.vchcenter.org/contact/",
+			  "logo" : "https://www.vchcenter.org/images/Main.png",
+			  "contactType" : "General Inquiry",
+			  "contactOption" : "website, phone, email",
+			  "availableLanguage" : [ "English" ],
+			"name": "Veterans Coming Home Center",
+			  "image": "https://www.vchcenter.org/images/Main.png",
+			  "brand": {
+			  "@type": "Service",
+			  "name": "Veterans Coming Home Center"
+			  }
+			  }]
+			}
+		</script>
 	</head>
 	<body class="landing is-preload">
 		<!-- Page Wrapper -->
@@ -32,6 +61,37 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="https://www.vchcenter.org">Veterans Coming Home Center</a></h1>
+						<noscript>
+							<style>
+								#ddown {display:none;}
+							</style>
+							<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#toggleMenu" class="menuToggle"><span>Menu</span></a>
+									
+									<div id="toggleMenu" class="navigation">
+									
+									<a href="#NormalView" class="navigationDialog"></a>
+									<a href="#NormalView" class="close"></a>
+										<ul class="nav">
+											<li class="selected"><a href="https://www.vchcenter.org">Home</a></li>
+											<li><a href="about/">About Us</a></li>
+											<li><a href="services/">Our Services</a></li>
+											<li><a href="testimonies/">Testimonies</a></li>
+											<li><a href="events/">Events</a></li>
+											<li><a href="serve/">Serve With Us</a></li>
+											<li><a href="contact/">Contact Us</a></li>
+											<li><a href="donate/">Donate</a></li>
+										</ul>
+									</div>
+									
+								</li>
+							</ul>
+						</nav>
+
+						</noscript>
+						<div id="ddown">
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -51,6 +111,7 @@
 								</li>
 							</ul>
 						</nav>
+						</div>
 					</header>
 
 				<!-- Banner -->
