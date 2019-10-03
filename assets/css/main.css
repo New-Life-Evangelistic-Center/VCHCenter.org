@@ -2883,8 +2883,10 @@ input, select, textarea {
 	
 	/* noscript */
 	
-		noscript {
-		color: orange;
+	noscript {
+		color: red;
+		text-align: center;
+		font-size: 20px;
 	}
 	.navigation {
 		display: none;
