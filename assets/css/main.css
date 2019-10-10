@@ -3081,7 +3081,7 @@ body.is-navigation-visible .navigation {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: pointer;
+  cursor: default;
   margin: 0;
   scrollbar-width: none;
   -ms-overflow-style: none;
