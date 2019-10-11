@@ -2542,20 +2542,13 @@ body.is-mobile.landing #footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, .9);
     z-index: 99998;
     opacity: 0;
     -webkit-transition: opacity 160ms ease-in;
     -moz-transition: opacity 160ms ease-in;
     transition: opacity 160ms ease-in;
     pointer-events: none
-}
-
-.blur {
-    -webkit-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    filter: blur(5px)
 }
 
 .ModalDialog:target {
@@ -3121,10 +3114,6 @@ body.is-navigation-visible .navigation {
 
 .ModalPadding {
 	padding: 3em;
-}
-
-.tingle-enabled .tingle-content-wrapper {
-	filter: blur(8px);
 }
 
 .tingle-modal--visible {
