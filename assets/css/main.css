@@ -3056,7 +3056,7 @@ body.is-navigation-visible .navigation {
 	-ms-flex-align: center;
 	align-items: center;
 	overflow: hidden;
-	background: rgba(0, 0, 0, .75);
+	background: rgba(0, 0, 0, .85);
 	opacity: 0;
 	-webkit-user-select: none;
 	-moz-user-select: none;
