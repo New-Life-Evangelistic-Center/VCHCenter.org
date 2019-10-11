@@ -256,15 +256,62 @@
 
 								<hr />
 								<!-- Library -->
-								<a href="#Library"><img class="image ServicesThumb fitMobile MarginLeft MobileNoLink" src="../images/services/Library_Thumb.webp" loading="auto" alt="Library Thumb"></a>
+								<div class="image MarginLeft">
+								<noscript>
+									<a href="#Library"><img class="image ServicesThumb fitMobile MobileNoLink" src="../images/services/Library_Thumb.webp" loading="auto" alt="Library Thumb"></a>
+									<a class="smallVerse" href="#LibraryBibleVerse">Proberbs 24:5 ESV</a>
+								</noscript>
+								<div class="disabled">
+									<img class="CursorHand js-tingle-modal-Library image ServicesThumb fitMobile MobileNoLink" src="../images/services/Library_Thumb.webp" loading="auto" alt="Library Thumb">
+									<p class="CursorHand js-tingle-modal-LibraryVerse smallVerse">Proberbs 24:5 ESV</p>
+								</div>
+								</div>
+								
+								<!-- Modal - CSS -->
+								<noscript>
 								<div id="Library" class="ImageModalDialog">
 								<a href="#NormalView" class="NormalView "></a>
 									<div>	
-									<a href="#NormalView" class="NormalView "></a>
 										<img class="container" src="../images/services/Library.webp" loading="auto" alt="Library">
 									</div>
 								</div>
-
+								</noscript>
+								<!-- Modal - javascript -->
+								<div class="disabled">
+									<div class="container content">
+										<div class="disable tingle-Library">
+											<div class="ModalPadding">
+												<img class="container" src="../images/services/Library.webp" loading="auto" alt="Library">
+											</div>
+										</div>
+									</div>
+								</div>	
+								
+								<!-- Modal - CSS -->
+								<div id="LibraryBibleVerse" class="ModalDialog">
+									 <a href="#NormalView" class="NormalView"></a>
+								 <div>
+										<div class="ModalSummary align-left noscrollbar">
+										<h1>Proberbs 24:5 ESV</h1>
+										<p>
+											<sup>5 </sup><i>A wise man is full of strength, and a man of knowledge enhances his might.</i>
+										</p>
+										</div>
+									</div>
+								</div>
+									 
+								<!-- Modal Verse - javascript -->
+								<div class="disabled">
+									<div class="container content">
+										<div class="disable tingle-LibraryVerse">
+											<div class="ModalPadding">
+											<h1>Proberbs 24:5 ESV</h1>
+												<p><sup>5 </sup><i>A wise man is full of strength, and a man of knowledge enhances his might.</i></p>
+											</div>
+										</div>
+									</div>
+								</div>	
+				
 								<h5>Library</h5>
 								<p class="TextRight">We have a fairly large selection of books in a secluded section of our building. This library is a free service that allows homeless to relax or learn from the books donated. Books are an excellent way to learn a new skill, take your mind off other stresses or continue your education. This space is also a quiet place to pray or meet with other friends in private.</p>
 
@@ -414,6 +461,28 @@
 						}
 					});
 					modalSurprise.setContent(document.querySelector('.tingle-RestAreaVerse').innerHTML);
+					modalSurprise.open();
+				});
+			/* Library */
+				var btn6 = document.querySelector('.js-tingle-modal-Library');
+				btn6.addEventListener('click', function(){
+					var modalSurprise = new tingle.modal({
+						onClose: function(){
+							modalSurprise.destroy();
+						}
+					});
+					modalSurprise.setContent(document.querySelector('.tingle-Library').innerHTML);
+					modalSurprise.open();
+				});
+			/* Library - Verse */
+				var btn6 = document.querySelector('.js-tingle-modal-LibraryVerse');
+				btn6.addEventListener('click', function(){
+					var modalSurprise = new tingle.modal({
+						onClose: function(){
+							modalSurprise.destroy();
+						}
+					});
+					modalSurprise.setContent(document.querySelector('.tingle-LibraryVerse').innerHTML);
 					modalSurprise.open();
 				});
 			</script>
