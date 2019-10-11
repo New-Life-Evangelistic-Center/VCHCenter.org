@@ -160,71 +160,14 @@
         return this.modalBoxContent
     }
 
-    Modal.prototype.addFooter = function() {
-        _buildFooter.call(this)
-
-        return this
-    }
-
-    Modal.prototype.setFooterContent = function(content) {
-        this.modalBoxFooter.innerHTML = content
-
-        return this
-    }
-
-    Modal.prototype.getFooterContent = function() {
-        return this.modalBoxFooter
-    }
-
     Modal.prototype.setStickyFooter = function(isSticky) {
         if (!this.isOverflow()) {
             isSticky = false
         }
 
-        if (isSticky) {
-            if (this.modalBox.contains(this.modalBoxFooter)) {
-                this.modalBox.removeChild(this.modalBoxFooter)
-                this.modal.appendChild(this.modalBoxFooter)
-                this.modalBoxFooter.classList.add('tingle-modal-box__footer--sticky')
-                _recalculateFooterPosition.call(this)
-                this.modalBoxContent.style['padding-bottom'] = this.modalBoxFooter.clientHeight + 20 + 'px'
-            }
-        } else if (this.modalBoxFooter) {
-            if (!this.modalBox.contains(this.modalBoxFooter)) {
-                this.modal.removeChild(this.modalBoxFooter)
-                this.modalBox.appendChild(this.modalBoxFooter)
-                this.modalBoxFooter.style.width = 'auto'
-                this.modalBoxFooter.style.left = ''
-                this.modalBoxContent.style['padding-bottom'] = ''
-                this.modalBoxFooter.classList.remove('tingle-modal-box__footer--sticky')
-            }
-        }
-
         return this
     }
 
-
-    Modal.prototype.addFooterBtn = function(label, cssClass, callback) {
-        var btn = document.createElement('button')
-                
-        btn.innerHTML = label
-
-        btn.addEventListener('click', callback)
-
-        if (typeof cssClass === 'string' && cssClass.length) {
-            cssClass.split(' ').forEach(function(item) {
-                btn.classList.add(item)
-            })
-        }
-
-        this.modalBoxFooter.appendChild(btn)
-
-        return btn
-    }
-
-    Modal.prototype.resize = function() {
-        console.warn('Resize is deprecated and will be removed in version 1.0')
-    }
 
     Modal.prototype.isOverflow = function() {
         var viewportHeight = window.innerHeight
@@ -254,14 +197,6 @@
         return '<svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><path d="M.3 9.7c.2.2.4.3.7.3.3 0 .5-.1.7-.3L5 6.4l3.3 3.3c.2.2.5.3.7.3.2 0 .5-.1.7-.3.4-.4.4-1 0-1.4L6.4 5l3.3-3.3c.4-.4.4-1 0-1.4-.4-.4-1-.4-1.4 0L5 3.6 1.7.3C1.3-.1.7-.1.3.3c-.4.4-.4 1 0 1.4L3.6 5 .3 8.3c-.4.4-.4 1 0 1.4z" fill="#000" fill-rule="nonzero"/></svg>'
     }
 
-    function _recalculateFooterPosition() {
-        if (!this.modalBoxFooter) { 
-            return
-        }
-        this.modalBoxFooter.style.width = this.modalBox.clientWidth + 'px'
-        this.modalBoxFooter.style.left = this.modalBox.offsetLeft + 'px'
-    }
-
     function _build() {
 
         this.modal = document.createElement('div')
@@ -289,11 +224,8 @@
             this.modalCloseBtnIcon.innerHTML = closeIcon()
 
             this.modalCloseBtnLabel = document.createElement('span')
-            this.modalCloseBtnLabel.classList.add('tingle-modal__closeLabel')
-            this.modalCloseBtnLabel.innerHTML = this.opts.closeLabel
 
             this.modalCloseBtn.appendChild(this.modalCloseBtnIcon)
-            this.modalCloseBtn.appendChild(this.modalCloseBtnLabel)
         }
 
         this.modalBox = document.createElement('div')
@@ -309,13 +241,6 @@
         }
 
         this.modal.appendChild(this.modalBox)
-
-    }
-
-    function _buildFooter() {
-        this.modalBoxFooter = document.createElement('div')
-        this.modalBoxFooter.classList.add('tingle-modal-box__footer')
-        this.modalBox.appendChild(this.modalBoxFooter)
     }
 
     function _bindEvents() {
