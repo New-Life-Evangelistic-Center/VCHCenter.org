@@ -3066,7 +3066,7 @@ body.is-navigation-visible .navigation {
 	-ms-flex-align: center;
 	align-items: center;
 	overflow: hidden;
-	background: rgba(0, 0, 0, .7);
+	background: rgba(0, 0, 0, .75);
 	opacity: 0;
 	-webkit-user-select: none;
 	-moz-user-select: none;
@@ -3105,7 +3105,7 @@ body.is-navigation-visible .navigation {
 	margin-bottom: auto;
 	width: 60%;
 	border-radius: 4px;
-	background: rgba(0, 0, 0, .5);
+	background: rgba(0, 0, 0, .8);
 	opacity: 1;
 	cursor: auto;
 	will-change: transform, opacity;
@@ -3153,20 +3153,6 @@ body.is-navigation-visible .navigation {
 		opacity: 1;
 		cursor: auto;
 		will-change: transform, opacity;
-	}
-}
-
-@supports ((-webkit-backdrop-filter: blur(5px)) or (backdrop-filter: blur(5px))) {
-	.tingle-modal {
-		-webkit-backdrop-filter: blur(5px);
-		backdrop-filter: blur(5px);
-	}
-	
-	@media screen and (max-width:540px) {
-		.tingle-modal {
-			-webkit-backdrop-filter: blur(5px);
-			backdrop-filter: blur(5px);
-		}
 	}
 }
 
