@@ -27,7 +27,7 @@
 		<link rel="apple-touch-icon" sizes="152x152" href="../apple-touch-icon-152x152-precomposed.png" />
 		<noscript>
 			<style>
-				#ddown {display:none;}
+				.disabled {display:none;}
 			</style>
 		</noscript>
 	</head>
@@ -63,7 +63,7 @@
 							</nav>
 						</noscript>
 						<!-- Menu - Javascript -->
-						<div id="ddown">
+						<div class="disabled">
 						<nav>
 							<ul>
 								<li class="special">
@@ -102,7 +102,7 @@
 						<section class="wrapper style5 spotlight">
 							<div class="content align-right">
 								
-								
+							<noscript>
 								<ul class="actions stacked">
 									<li>
 									<h3 class="icon solid fa-map-marked">&nbsp;Address</h3>
@@ -111,14 +111,36 @@
 									Springfield, MO 65802</a>
 									</li>
 								</ul>
-								
-											<div id="Address" class="ModalDialog">
-												 <a href="#NormalView" class="NormalView"></a>
-												 <div>	
-													  <iframe title="Map: 806 North Jefferson Ave. Springfield, MO 65802" class="ModalMap container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.3162136769547!2d-93.29124528469835!3d37.216467679864856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf62fb2f004117%3A0xf740b569b6cd973b!2s806%20N%20Jefferson%20Ave%2C%20Springfield%2C%20MO%2065802!5e0!3m2!1sen!2sus!4v1567797334382!5m2!1sen!2sus" loading="auto"></iframe>
-												 </div>
-											 </div>
-								
+							</noscript>
+							<div class="disabled">
+								<ul class="actions stacked">
+									<li>
+									<h3 class="icon solid fa-map-marked">&nbsp;Address</h3>
+										<span class="js-tingle-modal-Map CursorHand">
+											806 N Jefferson Ave<br>
+										Springfield, MO 65802</span>
+									</li>
+								</ul>
+							</div>
+							<!-- Modal - CSS -->
+								<div id="Address" class="ModalDialog">
+									 <a href="#NormalView" class="NormalView"></a>
+									 <div>	
+										  <iframe title="Map: 806 North Jefferson Ave. Springfield, MO 65802" class="ModalMap container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.3162136769547!2d-93.29124528469835!3d37.216467679864856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf62fb2f004117%3A0xf740b569b6cd973b!2s806%20N%20Jefferson%20Ave%2C%20Springfield%2C%20MO%2065802!5e0!3m2!1sen!2sus!4v1567797334382!5m2!1sen!2sus" loading="auto"></iframe>
+									 </div>
+								 </div>
+							<!-- Modal Verse - javascript -->
+							<div class="disabled">
+								<div class="container content">
+									<div class="disable tingle-Map">
+										<div class="ModalPadding">
+										<h1>Matthew 8:20 (ESV)</h1>
+											<p><sup>20 </sup>And Jesus said to him,  <i>&ldquo;Foxes have holes, and birds of the air have nests, but the Son of Man has nowhere to lay his head.&rdquo;</i></p>
+										</div>
+									</div>
+								</div>
+							</div>	
+
 								<hr />
 								
 								<ul class="actions stacked">
@@ -245,6 +267,19 @@
 			<script src="../assets/js/breakpoints.min.js"></script>
 			<script src="../assets/js/util.js"></script>
 			<script src="../assets/js/main.js"></script>
+			<!-- Modal - javascript -->
+			<script type="text/javascript">
+				var btn6 = document.querySelector('.js-tingle-modal-Map');
+				btn6.addEventListener('click', function(){
+					var modalSurprise = new tingle.modal({
+						onClose: function(){
+							modalSurprise.destroy();
+						}
+					});
+					modalSurprise.setContent(document.querySelector('.tingle-Map').innerHTML);
+					modalSurprise.open();
+				});
+			</script>
 
 	</body>
 </html>
