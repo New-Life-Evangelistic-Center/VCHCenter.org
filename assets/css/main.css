@@ -3154,7 +3154,7 @@ body.is-navigation-visible .navigation {
 }
 
 .iframePage {
-	background-color: #000;
+	background-color: transparent;
 	color: #fff
 }
 
