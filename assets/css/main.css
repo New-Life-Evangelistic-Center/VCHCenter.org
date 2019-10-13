@@ -1736,11 +1736,11 @@ input[type=submit]:disabled {
 }
 
 .wrapper.style5 hr {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 blockquote {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 code {
@@ -1756,7 +1756,7 @@ input[type=submit]:disabled {
 .wrapper.style5 header.major h4,
 .wrapper.style5 header.major h5,
 .wrapper.style5 header.major h6 {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 header.major p {
@@ -1821,15 +1821,15 @@ input[type=submit]:disabled {
 }
 
 .wrapper.style5 .icon.major {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 ul.alt li {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 table tbody tr {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 table tbody tr:nth-child(2n+1) {
@@ -1841,15 +1841,15 @@ input[type=submit]:disabled {
 }
 
 .wrapper.style5 table thead {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 table tfoot {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 table.alt tbody tr td {
-    border-color: #dfdfdf
+    border-color: #D4D4D4
 }
 
 .wrapper.style5 .button,
@@ -1857,7 +1857,7 @@ input[type=submit]:disabled {
 .wrapper.style5 input[type=button],
 .wrapper.style5 input[type=reset],
 .wrapper.style5 input[type=submit] {
-    box-shadow: inset 0 0 0 2px #dfdfdf;
+    box-shadow: inset 0 0 0 2px #D4D4D4;
     color: #272727
 }
 
@@ -1879,7 +1879,7 @@ input[type=submit]:disabled {
 
 @media screen and (max-width:736px) {
     .wrapper.style5 .features li {
-        border-top-color: #dfdfdf
+        border-top-color: #D4D4D4
     }
 }
 
@@ -2530,7 +2530,7 @@ body.is-mobile.landing #footer {
 .testimonyPic {
     width: 175px;
     border-radius: 90px;
-    border: 2px solid #6b2014;
+    border: 2px solid #D4D4D4;
     margin-bottom: 15px;
     overflow: hidden
 }
@@ -3027,18 +3027,18 @@ body.is-navigation-visible .navigation {
 }
 
 .disable {
-    display: none;
+    display: none
 }
 
 .smallVerse {
     color: #AA6600;
 	font-size: 18px;
     font-family: "Courier New";
-    border-bottom: none;
+    border-bottom: none
 }
  
  .tingle-modal * {
-	box-sizing: border-box;
+	box-sizing: border-box
 }
 
 .tingle-modal {
@@ -3080,11 +3080,11 @@ body.is-navigation-visible .navigation {
 	border: none;
 	background-color: transparent;
 	color: #fff;
-	cursor: pointer;
+	cursor: pointer
 }
 
 .tingle-modal__close svg * {
-	fill: currentColor;
+	fill: currentColor
 }
 
 .tingle-modal-box {
@@ -3098,7 +3098,7 @@ body.is-navigation-visible .navigation {
 	background: rgba(0, 0, 0, .8);
 	opacity: 1;
 	cursor: auto;
-	will-change: transform, opacity;
+	will-change: transform, opacity
 }
 
 .tingle-modal-box__content {
@@ -3110,16 +3110,16 @@ body.is-navigation-visible .navigation {
 }
 
 .ModalPadding {
-	padding: 3em;
+	padding: 3em
 }
 
 .tingle-modal--visible {
 	visibility: visible;
-	opacity: 1;
+	opacity: 1
 }
 
 .tingle-modal--visible .tingle-modal-box {
-	animation: scale .2s cubic-bezier(.68, -.55, .265, 1.55) forwards;
+	animation: scale .2s cubic-bezier(.68, -.55, .265, 1.55) forwards
 }
 
 .CursorHand {
@@ -3138,18 +3138,18 @@ body.is-navigation-visible .navigation {
 		background: rgba(0, 0, 0, .8);
 		opacity: 1;
 		cursor: auto;
-		will-change: transform, opacity;
+		will-change: transform, opacity
 	}
 }
 
 @keyframes scale {
 	0% {
 		opacity: 0;
-		transform: scale(.9);
+		transform: scale(.9)
 	}
 	100% {
 		opacity: 1;
-		transform: scale(1);
+		transform: scale(1)
 	}
 }
 
@@ -3170,5 +3170,13 @@ body.is-navigation-visible .navigation {
 
 .iframeModal {
     width: 100%;
-    height: 85vh;
+    height: 82vh
+}
+
+@media screen and (max-width:736px) {
+	.iframeModal {
+		width: 100%;
+		height: 82vh;
+		padding-right: 1em
+	}
 }
