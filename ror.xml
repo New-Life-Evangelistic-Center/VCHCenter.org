@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://www.vchcenter.org/</title>
-  <link>http://www.vchcenter.org/</link>
+  <title>ROR Sitemap for https://www.vchcenter.org/</title>
+  <link>https://www.vchcenter.org/</link>
 
 <item>
      <link>https://www.vchcenter.org/</link>
      <title>Veterans Coming Home Center</title>
-     <description>Veterans Coming Home Center</description>
+     <description>The only day shelter in Springfield, MO Working to be there when people are hurting!</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -15,7 +15,7 @@
 <item>
      <link>https://www.vchcenter.org/about/</link>
      <title>About Us</title>
-     <description>Veterans Coming Home Center</description>
+     <description>We provide Christian hospitality and respect for life through the services of food, clothing, shelter, education, and job training programs, as well as physical, mental and spiritual health care, to the poor and homeless in Saint Louis and beyond.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -23,7 +23,7 @@
 <item>
      <link>https://www.vchcenter.org/services/</link>
      <title>Our Services</title>
-     <description>Veterans Coming Home Center</description>
+     <description>Whether it's scorching heat, freezing rain or heavy snow the homeless are welcome to escape from inclement weather in our shelter. Our mission is to provide a safe haven for homeless veterans and civilians who are forced to live on the streets. Our building is an established community where we strive to support our brothers and sisters in any way we can. We do this by accepting anyone no matter where they're at in life.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -31,7 +31,7 @@
 <item>
      <link>https://www.vchcenter.org/testimonies/</link>
      <title>Testimonies</title>
-     <description>Veterans Coming Home Center</description>
+     <description>Testimony is one of the surest ways of growing faith in a community as well as giving the glory of our blessing to God. When the body of Christ shares in suffering or praise, they express God moving on earth. Paul states this nicely in 1 Corinthians 12:21-26. We are all one body and through testimony we know how to pray and praise. Read and watch how the Lord is working in our community.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -39,7 +39,7 @@
 <item>
      <link>https://www.vchcenter.org/events/</link>
      <title>Events</title>
-     <description>Veterans Coming Home Center</description>
+     <description>Calendar of Events</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -47,7 +47,7 @@
 <item>
      <link>https://www.vchcenter.org/serve/</link>
      <title>Serve With Us</title>
-     <description>Veterans Coming Home Center</description>
+     <description>The Law in God's Word is summed up in two commandments; love the Lord your God with all your heart, soul, mind and strength, and love your neighbors as yourself. (Luke 10:27) Our ministry is a local outreach to our neighbors. We recognize the call to extend mercy to those who are lost. Our hope is that you would join us in the immense work here in Springfield and throughout Missouri. Here are a few ways you can help serve at the Veterans Coming Home Center.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -55,7 +55,7 @@
 <item>
      <link>https://www.vchcenter.org/contact/</link>
      <title>Contact Us</title>
-     <description>Veterans Coming Home Center</description>
+     <description>Contact Us Today! 806 N Jefferson Ave, Springfield, MO 65802</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -63,7 +63,7 @@
 <item>
      <link>https://www.vchcenter.org/donate/</link>
      <title>Donate</title>
-     <description>Veterans Coming Home Center</description>
+     <description>As a non-profit 501(c)3 every donation counts. New Life Evangelistic Center receives no Federal, State or Local dollars from the Government. Through the help of local Churches and businesses we are able to serve the homeless. When you donate to the Veterans Coming Home Center you change lives in your local community. All financial or in kind donations contirubute to the work in Springfield.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -71,17 +71,9 @@
 <item>
      <link>https://www.vchcenter.org/resources/</link>
      <title>Resources</title>
-     <description>Veterans Coming Home Center</description>
+     <description>Homeless Resources and Link Backs.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>https://www.vchcenter.org/resources/HousingResources.pdf</link>
-     <title></title>
-     
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 </channel>
