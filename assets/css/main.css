@@ -2398,6 +2398,11 @@ body.is-mobile #main>header {
     color: rgba(255, 255, 255, .5)
 }
 
+#footer .icons span {
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer
+}
+
 #footer .icons a:hover {
     color: #fff
 }

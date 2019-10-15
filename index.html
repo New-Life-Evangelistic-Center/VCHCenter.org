@@ -150,7 +150,6 @@
 										</div>
 									 </div>
 								 </div>
-
 							</noscript>
 							<!-- Modal - javascript -->
 							<div class="disabled">
@@ -240,18 +239,55 @@
 						<ul class="FooterLink">
 							<li><a class="button primary" href="resources/">Homeless Resources</a></li>
 						</ul>
+						<noscript>
 						<ul class="icons">
 							<li><a href="https://twitter.com/VCHCenter/" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="https://www.facebook.com/VetsComingHomeSpringfield/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="https://www.instagram.com/vchc_springfield_mo/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#Keywords" class="icon fa fa-search"><span class="label">Keywords</span></a><span></span></li>
 							<li><a href="https://www.youtube.com/channel/UCLNrSKcOkVBbZcbh6i1DeoQ/" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
 							<li><a href="contact/" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 							<li><a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=51" target="_blank" class="icon solid fa-donate"><span class="label">Donate</span></a></li>
 						</ul>
+						</noscript>
+						<div class="disabled">
+						<ul class="icons">
+							<li><a href="https://twitter.com/VCHCenter/" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/VetsComingHomeSpringfield/" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/vchc_springfield_mo/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><span class="icon fa fa-search js-tingle-modal-Keywords"></span></li>
+							<li><a href="https://www.youtube.com/channel/UCLNrSKcOkVBbZcbh6i1DeoQ/" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+							<li><a href="contact/" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=51" target="_blank" class="icon solid fa-donate"><span class="label">Donate</span></a></li>
+						</ul>
+						</div>
 						<ul class="FooterLink">
 							<li><a class="icon" href="http://www.nlecstl.org/">New Life Evangelistic Center</a></li>
 						</ul>
 					</footer>
+					
+						<!-- Modal - CSS -->
+							<noscript>
+								<div id="Keywords" class="ModalDialog">
+									 <a href="#NormalView" class="NormalView"></a>
+									 <div>
+										<div class="ModalSummary align-left">
+											<p>These are some keywords that people use to find us or that they call us: The VA, VA Center, Veterans Coming Home, Veterans Coming Home Center, VA of Springfield MO, Veterans of Springfield</p>
+										</div>
+									 </div>
+								 </div>
+							</noscript>
+							<!-- Modal - javascript -->
+							<div class="disabled">
+							<div class="container content">
+								<div class="disable tingle-Keywords">
+									<div class="ModalPadding">
+											<p>These are some keywords that people use to find us or that they call us: The VA, VA Center, Veterans Coming Home, Veterans Coming Home Center, VA of Springfield MO, Veterans of Springfield</p>
+									</div>
+								</div>
+							</div>
+						</div>	
+
 					
 			</div>
 
@@ -273,6 +309,16 @@
 						}
 					});
 					modalSurprise.setContent(document.querySelector('.tingle-1').innerHTML);
+					modalSurprise.open();
+				});
+				var btn6 = document.querySelector('.js-tingle-modal-Keywords');
+				btn6.addEventListener('click', function(){
+					var modalSurprise = new tingle.modal({
+						onClose: function(){
+							modalSurprise.destroy();
+						}
+					});
+					modalSurprise.setContent(document.querySelector('.tingle-Keywords').innerHTML);
 					modalSurprise.open();
 				});
 			</script>
