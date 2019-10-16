@@ -2,8 +2,10 @@
 
 **The only day shelter in Springfield, MO and working to be there when people are hurting by providing Christian hospitality and respect for life through the services of food, clothing, shelter, education and job training programs. Please contact us if you would like to serve with us and keep in mind we are always accepting donations whether it be monetary or in kind.**  
 
-[Donate to VCHC](https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=51 "Donate to VCHC")  
-
+Donate to VCHC  
+-------------------  
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=51" target="_blank"><img src="https://raw.githubusercontent.com/New-Life-Evangelistic-Center/VCHCenter.org/master/images/Donate.webp" alt="Donate"></a>  
+  
 [![button](https://raw.githubusercontent.com/New-Life-Evangelistic-Center/VCHCenter.org/master/images/Main.webp)](https://www.vchcenter.org)  
   
 HUMBLE BEGINNINGS  
