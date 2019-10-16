@@ -4,7 +4,7 @@
 
 [Donate to VCHC](https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=51 "Donate to VCHC")  
 
-![ScreenShot1](https://www.vchcenter.org/images/Main.webp)  
+[![button](https://www.vchcenter.org/images/Main.webp)](https://www.vchcenter.org)  
   
 HUMBLE BEGINNINGS  
 --------------------------  
@@ -25,7 +25,3 @@ New Life Evangelistic Center has founded its values on the love of Jesus Christ 
 MORE THAN A DAY SHELTER  
 -------------------------------------  
 On August 11, 2008 NLEC opened the doors of the Veterans Coming Home Center. Originally, our mission was to serve homeless Veterans in the city of Springfield, MO. A fierce battle ensued between Larry Rice and city officials as he fought to open an overnight shelter at 806 North Jefferson. The city never conceded and continued to push back at the ministry making it difficult for them to serve the homeless. The Veterans Coming Home Center became the largest and only day shelter in the city of Springfield. NLEC saw the immense need to open the doors to both Veterans and Civilians. Currently we provide much needed services to anywhere between 150 to 250 people a day. As a division of NLEC we continue the work of the ministry here in Springfield. Please continue to pray for the Veterans Coming Home Center as we change lives through the power of the Holy Spirit and support from devout Christians in our community.  
-  
-[button url="https://www.nlecstl.org"]  
-<button href="https://www.vchcenter.org">More About VCHC</button>  
-<button href="https://www.nlecstl.org">More About NLEC</button>  
