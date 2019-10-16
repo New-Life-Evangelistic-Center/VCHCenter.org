@@ -4,7 +4,7 @@
 
 [Donate to VCHC](https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=51 "Donate to VCHC")  
 
-[![button](https://www.vchcenter.org/images/Main.webp)](https://www.vchcenter.org)  
+[![button](https://raw.githubusercontent.com/New-Life-Evangelistic-Center/VCHCenter.org/master/images/Main.webp)](https://www.vchcenter.org)  
   
 HUMBLE BEGINNINGS  
 --------------------------  
