@@ -4,10 +4,12 @@
 
 Donate to VCHC  
 -------------------  
-<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=51" target="_blank"><img src="https://raw.githubusercontent.com/New-Life-Evangelistic-Center/VCHCenter.org/master/images/Donate.webp" alt="Donate"></a>  
+<a href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=51" target="_blank"><img src="https://raw.githubusercontent.com/New-Life-Evangelistic-Center/VCHCenter.org/master/images/Donate.webp" alt="Donate"></a>   
   
+Visit the VCHC Website  
+-----------------------------  
 [![button](https://raw.githubusercontent.com/New-Life-Evangelistic-Center/VCHCenter.org/master/images/Main.webp)](https://www.vchcenter.org)  
-  
+    
 HUMBLE BEGINNINGS  
 --------------------------  
 In 1972 Larry Rice began New Life Evangelistic Center by doing homeless street outreach. Their mission was quite simple; spread the Gospel while serving those most in need. The ministry started in a mobile van but quickly grew to something above and beyond human expectations. Many people received Christ as their Lord and Savior.  
