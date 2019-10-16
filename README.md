@@ -14,15 +14,15 @@ Larry Rice is boldly paving the way for other ministries to serve the homeless. 
   
 NLEC has consistently been pushing legislators to help the homeless in several different locations throughout Missouri. The ministry has been doing this only through the constant grace and mercy by God our Father. NLEC celebrated their 47th year of ministry in 2019. They continue to make a massive impact on the lives of thousands. Currently NLEC reaches the homeless on the streets of St. Louis, Springfield, Marshfield, New Bloomfield and Potosi. They provide vital resources for those cast out by society. Continued prayers for this ministry are greatly appreciated as we keep reaching the lost and forgotten.  
   
-##OUR MISSION  
+OUR MISSION  
 --------------------  
 The mission of New Life Evangelistic Center (NLEC) is to provide Christian hospitality and respect for life through the services of food, clothing, shelter, education, and job training programs, as well as physical, mental and spiritual health care, to the poor and homeless in Saint Louis and beyond.  
   
-##OUR CORE VALUES  
+OUR CORE VALUES  
 --------------------------  
 New Life Evangelistic Center has founded its values on the love of Jesus Christ for all people, and especially for all who suffer from poverty, homelessness, addictions and abuse. NLEC holds the following values in highest regard: empathy, advocacy, empowerment, dignity, responsibility, faith, hope and love.  
   
-##MORE THAN A DAY SHELTER  
+MORE THAN A DAY SHELTER  
 -------------------------------------  
 On August 11, 2008 NLEC opened the doors of the Veterans Coming Home Center. Originally, our mission was to serve homeless Veterans in the city of Springfield, MO. A fierce battle ensued between Larry Rice and city officials as he fought to open an overnight shelter at 806 North Jefferson. The city never conceded and continued to push back at the ministry making it difficult for them to serve the homeless. The Veterans Coming Home Center became the largest and only day shelter in the city of Springfield. NLEC saw the immense need to open the doors to both Veterans and Civilians. Currently we provide much needed services to anywhere between 150 to 250 people a day. As a division of NLEC we continue the work of the ministry here in Springfield. Please continue to pray for the Veterans Coming Home Center as we change lives through the power of the Holy Spirit and support from devout Christians in our community.  
   
