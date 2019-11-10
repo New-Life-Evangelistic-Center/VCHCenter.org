@@ -2339,10 +2339,10 @@ body.is-preload #banner:after {
 
 #main>header {
     padding: 12em 0 10em 0;
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/1.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/1.jpg);
-    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/1.jpg);
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/1.jpg);
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/banner.webp);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/banner.webp);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/banner.webp);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/banner.webp);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2496,10 +2496,10 @@ body.is-mobile.landing #page-wrapper {
 
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
-    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/1.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/1.jpg);
-    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/1.jpg);
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/1.jpg);
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/banner.webp);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/banner.webp);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/banner.webp);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .4)), url(../../images/banner.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover
