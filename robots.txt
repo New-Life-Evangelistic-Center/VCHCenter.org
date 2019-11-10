@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /iframe/
+Disallow: /DEMO/
 Sitemap: https://www.vchcenter.org/sitemap.xml
