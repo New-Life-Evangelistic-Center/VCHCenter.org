@@ -61,55 +61,11 @@
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 			
-			<!-- Banner Video -->       <!-- MAKE VIDEO NOT PLAY ON MOBILE DEVICES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+			<!-- Banner Video -->
 			<video id="myVideo" preload="auto" autoplay="autoplay" autobuffer="autobuffer" muted="muted">
 				<source src="images/1.mp4" type="video/mp4">
 			</video>
-			<script>
-var decodedFrames = 0;
-var decodedPerSec = 0;
-var audioBytesDecoded = 0;
-var audioBytesDecodedPerSec = 0;
-var videoBytesDecoded = 0;
-var videoBytesDecodedPerSec = 0;
-var droppedFrames = 0;
-var droppedFramesPerSec = 0;
-function Mean() {
-  this.count = 0;
-  this.sum = 0;
- 
-  this.record = function(val) {
-    this.count++;
-    this.sum += val;
-  };
- 
-  this.mean = function() {
-    return this.count ? (this.sum / this.count).toFixed(3) : 0;
-  };
-}
-var decodedMean = new Mean();
-var audioMean = new Mean();
-var videoMean = new Mean();
-var dropMean = new Mean();
-function recalcRates() {
-  var v = document.getElementById("myVideo");
-  decodedPerSec = (v.webkitDecodedFrameCount - decodedFrames);
-  decodedFrames = v.webkitDecodedFrameCount;
-  audioBytesDecodedPerSec = v.webkitAudioDecodedByteCount - audioBytesDecoded;
-  audioBytesDecoded = v.webkitAudioDecodedByteCount;
-  videoBytesDecodedPerSec = v.webkitVideoDecodedByteCount - videoBytesDecoded;
-  videoBytesDecoded = v.webkitVideoDecodedByteCount;
-  droppedFramesPerSec = v.webkitDroppedFrameCount - droppedFrames;
-  droppedFrames = v.webkitDroppedFrameCount;
-  decodedMean.record(decodedPerSec);
-  audioMean.record(audioBytesDecodedPerSec);
-  videoMean.record(videoBytesDecodedPerSec);
-  dropMean.record(droppedFramesPerSec);
-  console.log("timestamp:" + + new Date() + ";file_name:" + v.src.replace(/^.*[\\\/]/, '') + ";video_bytes_decoded_count:" + v.webkitVideoDecodedByteCount + ";video_bytes_decoded_average:" + videoMean.mean() + ";decoded_frames_count:" + v.webkitDecodedFrameCount + ";decoded_frames_average:" + decodedMean.mean() + ";dropped_frames_count:" + v.webkitDroppedFrameCount + ";dropped_frames_average:" + dropMean.mean())
-}
-setInterval(recalcRates, 1000);
-</script>
-			
+						
 				<!-- Header -->
 					<header id="header" class="alt">
 						<h1><a href="https://www.vchcenter.org">Veterans Coming Home Center</a></h1>
@@ -335,6 +291,6 @@ setInterval(recalcRates, 1000);
 					modalSurprise.open();
 				});
 			</script>
-			
+
 	</body>
 </html>
