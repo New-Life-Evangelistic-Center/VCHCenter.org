@@ -2520,7 +2520,7 @@ body.is-mobile.landing #footer {
 	.calendar.fit {
 		display: block;
 		margin: 0 0 2em 0;
-		height: 23em;
+		height: 25em;
 		width: 100%
 	}
 }
