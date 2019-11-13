@@ -2516,6 +2516,14 @@ body.is-mobile.landing #footer {
     height: 35em;
     width: 100%
 }
+@media screen and (max-width:480px) {
+	.calendar.fit {
+		display: block;
+		margin: 0 0 2em 0;
+		height: 23em;
+		width: 100%
+	}
+}
 
 .headerSmall {
     background-color: #a60;
