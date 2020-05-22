@@ -269,7 +269,7 @@
             <link>https://vchcenter.org/podcast/</link>
         </item>
         <!--END REPEAT-->
-        <!--REPEAT THIS BLOCK FOR EACH EPISODE
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
         <item>
             <title>The Aftermath of COVID-19</title>
             <itunes:author>Chris Aaron Rice</itunes:author>
@@ -283,6 +283,6 @@
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
         </item>
-        END REPEAT-->
+        <!--END REPEAT-->
     </channel>
 </rss>
