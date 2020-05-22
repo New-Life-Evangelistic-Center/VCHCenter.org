@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /DEMO/
+Disallow: /DEMO-OLD/
+Disallow: /resources/Resources.pdf
+Disallow: /gallery/
+Sitemap: https://www.vchcenter.org/sitemap.xml

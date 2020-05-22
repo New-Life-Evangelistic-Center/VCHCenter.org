@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Living Life with Love</title>
+        <link>https://vchcenter.org/podcast/</link>
+        <language>en-us</language>
+        <copyright>℗ &amp; © 2019 New Life Evangelistic Center</copyright>
+        <itunes:subtitle>A podcast about becoming a new creation in Christ through service and ministry to the poor. Pastor Chris Aaron Rice shares his experience of service to those in need.</itunes:subtitle>
+        <itunes:author>Chris Aaron Rice</itunes:author>
+        <itunes:summary>Pastor Chris Aaron Rice serves as a leader in New Life Evangelistic Center. This nonprofit is dedicated to serving the poor and homeless throughout Mid-America. He has lived in deep community most of his life. Pastor Rice shares his experiences serving those in need. He studied Classical Languages and Archaeology at Calvin University in Grand Rapids MI. Pastor Rice builds off of the firm foundation laid down in scripture, when approaching how to serve others. Join us for a thought provoking podcast that digs deep into living a life for Christ. New Life is dedicated to be there when people are hurting. This podcast will look into what it takes to serve others when they need help most. God bless!</itunes:summary>
+        <description>Pastor Chris Aaron Rice serves as a leader in New Life Evangelistic Center. This nonprofit is dedicated to serving the poor and homeless throughout Mid-America. He has lived in deep community most of his life. Pastor Rice shares his experiences serving those in need. He studied Classical Languages and Archaeology at Calvin University in Grand Rapids MI. Pastor Rice builds off of the firm foundation laid down in scripture, when approaching how to serve others. Join us for a thought provoking podcast that digs deep into living a life for Christ. New Life is dedicated to be there when people are hurting. This podcast will look into what it takes to serve others when they need help most. God bless!</description>
+        <image>
+            <url>https://vchcenter.org/podcast/podcast_icon.jpg</url>
+            <title>Living Life with Love</title>
+            <link>https://vchcenter.org/podcast/</link>
+        </image>
+        <itunes:owner>
+            <itunes:name>Chris Aaron Rice</itunes:name>
+            <itunes:email>carice@nle-0600l.org</itunes:email>
+        </itunes:owner>
+        <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+        <itunes:category text="Religion &amp; Spirituality">
+            <itunes:category text="Spirituality"/>
+        </itunes:category>
+        <itunes:category text="History">
+        </itunes:category>
+        <itunes:category text="Society &amp; Culture">
+            <itunes:category text="Philosophy"/>
+        </itunes:category>
+        <itunes:explicit>no</itunes:explicit>
+        <atom:link href="https://vchcenter.org/podcast/podcast.xml" rel="self" type="application/rss+xml" />
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>10 Myths about Homelessness</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>How stigmas change the way we think about the homeless.</itunes:subtitle>
+            <itunes:summary>There are many myths that society propagates about homeless individuals. Here are 10 myths that we commonly hear or believe about the less fortunate.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="9215011" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast01.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast01.mp3</guid>
+            <pubDate>Fri, 20 Dec 2019 15:14:07 -0600</pubDate>
+            <itunes:duration>17:01</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Communal Living Part 1</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>The complexities of intentional community and what we can learn from them.</itunes:subtitle>
+            <itunes:summary>intentional community is not easy but it can teach us some valuable lessons about the brokenness in our society. We are social beings and so living in deep community is both humbling and rewarding in many ways.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="15697642" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast02.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast02.mp3</guid>
+            <pubDate>Fri, 27 Dec 2019 15:53:00 -0600</pubDate>
+            <itunes:duration>17:44</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Communal Living Part 2</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>New Life Evangelistic Center forms community.</itunes:subtitle>
+            <itunes:summary>Pastor Chris Aaron Rice continues the conversation about intentional community. New Life Evangelistic Center is operated by another form of deep community. Join us as we share how NLEC uses intentional community to help homeless men and women break the cycle of homelessness.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="11142418" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast03.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast03.mp3</guid>
+            <pubDate>Fri, 3 Jan 2020 11:30:00 -0600</pubDate>
+            <itunes:duration>20:45</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Enabling VS Serving</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Is outreach worth it?</itunes:subtitle>
+            <itunes:summary>Serving can be be incredibly difficult especially when you feel as though you are enabling people in their situation. In this podcast we grapple with the tension between enabling vs service.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="25001693" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast04.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast04.mp3</guid>
+            <pubDate>Fri, 10 Jan 2020 09:06:00 -0600</pubDate>
+            <itunes:duration>17:21</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>From Homeless To Leadership</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>A conversation on leadership featuring Quinton Forester</itunes:subtitle>
+            <itunes:summary>Pastor Rice discusses Quinton experience in New Life's Adult Training Program. Quinton brings insight to the conversation as one who has lived on the streets of Springfield.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="31460477" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast05.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast05.mp3</guid>
+            <pubDate>Fri, 17 Jan 2020 07:06:00 -0600</pubDate>
+            <itunes:duration>21:50</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Service in the Bible</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>What does the Bible say about serving others?</itunes:subtitle>
+            <itunes:summary>The Bible is a wonderful guide in spiritual development. What does it have to say about service? Pastor Rice breaks down some of the key scriptures that people point to when serving others.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="29705625" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast06.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast06.mp3</guid>
+            <pubDate>Fri, 24 Jan 2020 10:30:00 -0600</pubDate>
+            <itunes:duration>20:37</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>The Church and Service</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Christ's mission for the church and how Western Civilization has twisted it.</itunes:subtitle>
+            <itunes:summary>Who is the church supposed to serve? How is the church supposed to serve. Join us as we dig into scripture to answer some of these tough questions.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="16074817" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast07.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast07.mp3</guid>
+            <pubDate>Fri, 31 Jan 2020 11:35:00 -0600</pubDate>
+            <itunes:duration>18:00</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Reviewing Letters to the Church by Francis Chan</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Pastor Rice reviews Francis Chan's newest book.</itunes:subtitle>
+            <itunes:summary>Letters to the Church is an excellent book calling churches in the US to change their mindset to Godliness. Francis Chan breaks down his experiences as a pastor at a megachurch, and the sharp lessons God taught him through those experiences. Join us as we seek to learn from his newest book.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="16959890" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast08.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast08.mp3</guid>
+            <pubDate>Fri, 7 Feb 2020 10:40:00 -0600</pubDate>
+            <itunes:duration>18:13</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Tales from the Streets</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>What is it like to live on the streets? Join us as we have a candid conversation with the Seefeldt.</itunes:subtitle>
+            <itunes:summary>The Seefeldt lived on the streets for quite some time. They share their experiences and the people they came across living as a couple on the streets.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="23539190" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast09.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast09.mp3</guid>
+            <pubDate>Fri, 14 Feb 2020 13:45:00 -0600</pubDate>
+            <itunes:duration>20:40</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Free Service and Leadership</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>What right do leaders in the church have, and what should be required of the congregation? Join us as we discuss serving as leaders in a changing world.</itunes:subtitle>
+            <itunes:summary>In 1 Corinthians 9 Paul challenges the church to think of service in a different light. He boldly states that apostles deserve the wages they earn from the congregation, but it is even better to witness and build the church for free. Paul's challenge gets to the root of what it means to be Christian in a secular world.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="24384535" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast10.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast10.mp3</guid>
+            <pubDate>Fri, 21 Feb 2020 13:45:00 -0600</pubDate>
+            <itunes:duration>21:34</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Being the Salt and Light</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Jesus claims that his disciples are the salt and light of the earth. Join us as we discuss what that means and how it impacts our service.</itunes:subtitle>
+            <itunes:summary>Chris Aaron Rice digs into the sermon on the mount. Jesus shows us a new way of serving and living in the world. He challenges us to constantly steer the conversation back to him. Join us!</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="22923544" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast11.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast11.mp3</guid>
+            <pubDate>Fri, 28 Feb 2020 11:59:00 -0600</pubDate>
+            <itunes:duration>20:55</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Homelessness in Springfield</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>In the Buckle of the Bible Belt, why is there homelessness?</itunes:subtitle>
+            <itunes:summary>What are some of the struggles nonprofits and local leaders face when addressing homelessness in Springfield MO. Join us as we dig into the conversation of homelessness in Springfield MO.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="25432225" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast12.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast12.mp3</guid>
+            <pubDate>Fri, 6 Mar 2020 11:59:00 -0600</pubDate>
+            <itunes:duration>21:47</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Family and Service Part 1</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>How does our family life impact how we serve?</itunes:subtitle>
+            <itunes:summary>Join us as we discuss family relationships and how these relationships impact how we serve. Pastor Rice brings his own experience as a new father on how to serve with a family.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="22366305" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast13.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast13.mp3</guid>
+            <pubDate>Fri, 13 Mar 2020 11:59:00 -0600</pubDate>
+            <itunes:duration>20:24</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Family and Service Part 2</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>How does our family life impact how we serve?</itunes:subtitle>
+            <itunes:summary>Join us as we discuss family relationships and how these relationships impact how we serve. Pastor Rice brings his own experience as a new father on how to serve with a family.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="19542342" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast14.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast14.mp3</guid>
+            <pubDate>Fri, 24 Apr 2020 08:56:00 -0600</pubDate>
+            <itunes:duration>17:32</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Perseverance through Trials</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>How do we love others when suffering ourselves? Join us for a conversation about fulfilling our Biblical mandate to love others while going through personal trials.</itunes:subtitle>
+            <itunes:summary>The COVID-19 pandemic has shaken the entire world. How are Christians supposed to be responding? What does the Bible say about perseverance through trials? Pastor Chris Aaron shares his views on the state of Christianity and the need for more service during this epidemic.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="32318876" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast15.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast15.mp3</guid>
+            <pubDate>Fri, 8 May 2020 08:32:00 -0600</pubDate>
+            <itunes:duration>22:26</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Generosity Burnout</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Join us for a conversation about generosity burnout and how to avoid it.</itunes:subtitle>
+            <itunes:summary>There are many legitimate problems and crises in the world. It is easy to become overwhelmed by all the sin and injustice on earth. Join us this week as we break down how to fight against generosity burnout.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="26142267" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast16.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast16.mp3</guid>
+            <pubDate>Fri, 15 May 2020 09:55:00 -0600</pubDate>
+            <itunes:duration>18:09</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE
+        <item>
+            <title>The Aftermath of COVID-19</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Taking adversity and turning it into thriving change.</itunes:subtitle>
+            <itunes:summary>The coronavirus pandemic has taught the world many lessons. Join us as we discuss ways the church can grow through the adversity.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="28193617" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast17.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast17.mp3</guid>
+            <pubDate>Fri, 22 May 2020 09:28:00 -0600</pubDate>
+            <itunes:duration>19:34</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        END REPEAT-->
+    </channel>
+</rss>
