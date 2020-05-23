@@ -284,5 +284,22 @@
             <link>https://vchcenter.org/podcast/</link>
         </item>
         <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <!-- DELETE THIS LINE TO MAKE THIS EPISODE LIVE
+        <item>
+            <title>The Aftermath of COVID-19</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Taking adversity and turning it into thriving change.</itunes:subtitle>
+            <itunes:summary>The coronavirus pandemic has taught the world many lessons. Join us as we discuss ways the church can grow through the adversity.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="28193617" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast17.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast17.mp3</guid>
+            <pubDate>Fri, 22 May 2020 09:28:00 -0600</pubDate>
+            <itunes:duration>19:34</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        DELETE THIS LINE TO MAKE THIS EPISODE LIVE -->
+        <!--END REPEAT-->
     </channel>
 </rss>
