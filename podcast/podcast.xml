@@ -16,7 +16,7 @@
         </image>
         <itunes:owner>
             <itunes:name>Chris Aaron Rice</itunes:name>
-            <itunes:email>carice@nle-0600l.org</itunes:email>
+            <itunes:email>carice@nle-0500l.org</itunes:email>
         </itunes:owner>
         <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
         <itunes:category text="Religion &amp; Spirituality">
@@ -38,7 +38,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="9215011" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast01.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast01.mp3</guid>
-            <pubDate>Fri, 20 Dec 2019 15:14:07 -0600</pubDate>
+            <pubDate>Fri, 20 Dec 2019 15:14:07 -0500</pubDate>
             <itunes:duration>17:01</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -53,7 +53,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="15697642" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast02.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast02.mp3</guid>
-            <pubDate>Fri, 27 Dec 2019 15:53:00 -0600</pubDate>
+            <pubDate>Fri, 27 Dec 2019 15:53:00 -0500</pubDate>
             <itunes:duration>17:44</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -68,7 +68,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="11142418" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast03.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast03.mp3</guid>
-            <pubDate>Fri, 3 Jan 2020 11:30:00 -0600</pubDate>
+            <pubDate>Fri, 3 Jan 2020 11:30:00 -0500</pubDate>
             <itunes:duration>20:45</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -83,7 +83,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="25001693" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast04.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast04.mp3</guid>
-            <pubDate>Fri, 10 Jan 2020 09:06:00 -0600</pubDate>
+            <pubDate>Fri, 10 Jan 2020 09:06:00 -0500</pubDate>
             <itunes:duration>17:21</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -98,7 +98,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="31460477" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast05.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast05.mp3</guid>
-            <pubDate>Fri, 17 Jan 2020 07:06:00 -0600</pubDate>
+            <pubDate>Fri, 17 Jan 2020 07:06:00 -0500</pubDate>
             <itunes:duration>21:50</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -113,7 +113,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="29705625" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast06.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast06.mp3</guid>
-            <pubDate>Fri, 24 Jan 2020 10:30:00 -0600</pubDate>
+            <pubDate>Fri, 24 Jan 2020 10:30:00 -0500</pubDate>
             <itunes:duration>20:37</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -128,7 +128,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="16074817" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast07.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast07.mp3</guid>
-            <pubDate>Fri, 31 Jan 2020 11:35:00 -0600</pubDate>
+            <pubDate>Fri, 31 Jan 2020 11:35:00 -0500</pubDate>
             <itunes:duration>18:00</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -143,7 +143,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="16959890" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast08.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast08.mp3</guid>
-            <pubDate>Fri, 7 Feb 2020 10:40:00 -0600</pubDate>
+            <pubDate>Fri, 7 Feb 2020 10:40:00 -0500</pubDate>
             <itunes:duration>18:13</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -158,7 +158,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="23539190" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast09.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast09.mp3</guid>
-            <pubDate>Fri, 14 Feb 2020 13:45:00 -0600</pubDate>
+            <pubDate>Fri, 14 Feb 2020 13:45:00 -0500</pubDate>
             <itunes:duration>20:40</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -173,7 +173,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="24384535" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast10.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast10.mp3</guid>
-            <pubDate>Fri, 21 Feb 2020 13:45:00 -0600</pubDate>
+            <pubDate>Fri, 21 Feb 2020 13:45:00 -0500</pubDate>
             <itunes:duration>21:34</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -188,7 +188,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="22923544" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast11.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast11.mp3</guid>
-            <pubDate>Fri, 28 Feb 2020 11:59:00 -0600</pubDate>
+            <pubDate>Fri, 28 Feb 2020 11:59:00 -0500</pubDate>
             <itunes:duration>20:55</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -203,7 +203,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="25432225" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast12.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast12.mp3</guid>
-            <pubDate>Fri, 6 Mar 2020 11:59:00 -0600</pubDate>
+            <pubDate>Fri, 6 Mar 2020 11:59:00 -0500</pubDate>
             <itunes:duration>21:47</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -218,7 +218,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="22366305" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast13.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast13.mp3</guid>
-            <pubDate>Fri, 13 Mar 2020 11:59:00 -0600</pubDate>
+            <pubDate>Fri, 13 Mar 2020 11:59:00 -0500</pubDate>
             <itunes:duration>20:24</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -233,7 +233,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="19542342" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast14.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast14.mp3</guid>
-            <pubDate>Fri, 24 Apr 2020 08:56:00 -0600</pubDate>
+            <pubDate>Fri, 24 Apr 2020 08:56:00 -0500</pubDate>
             <itunes:duration>17:32</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -248,7 +248,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="32318876" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast15.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast15.mp3</guid>
-            <pubDate>Fri, 8 May 2020 08:32:00 -0600</pubDate>
+            <pubDate>Fri, 8 May 2020 08:32:00 -0500</pubDate>
             <itunes:duration>22:26</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -263,7 +263,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="26142267" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast16.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast16.mp3</guid>
-            <pubDate>Fri, 15 May 2020 09:55:00 -0600</pubDate>
+            <pubDate>Fri, 15 May 2020 09:55:00 -0500</pubDate>
             <itunes:duration>18:09</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -278,7 +278,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="28193617" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast17.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast17.mp3</guid>
-            <pubDate>Fri, 22 May 2020 09:28:00 -0600</pubDate>
+            <pubDate>Fri, 22 May 2020 09:28:00 -0500</pubDate>
             <itunes:duration>19:34</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
@@ -294,7 +294,7 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="28193617" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast17.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast17.mp3</guid>
-            <pubDate>Fri, 22 May 2020 09:28:00 -0600</pubDate>
+            <pubDate>Fri, 22 May 2020 09:28:00 -0500</pubDate>
             <itunes:duration>19:34</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
