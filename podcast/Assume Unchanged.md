@@ -26,4 +26,5 @@ git update-index --assume-unchanged podcast\podcast20.mp3
 ## Revert
 
 ```ps
-git update-index --no-assume-unchanged FILENAME.EXT```
+git update-index --no-assume-unchanged FILENAME.EXT
+```

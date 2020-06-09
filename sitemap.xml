@@ -8,63 +8,108 @@
 
 
 <url>
-  <loc>https://www.vchcenter.org/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/about/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/.</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/services/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/about/</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/testimonies/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/services/</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/events/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/testimonies/</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/serve/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/events/</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/contact/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/serve/</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/donate/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/contact/</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/podcast/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/donate/</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/prayer-wall/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/podcast/</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/resources/</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/prayer-wall/</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vchcenter.org/serve/Application.pdf</loc>
-  <lastmod>2019-12-25T14:26:49+00:00</lastmod>
+  <loc>https://vchcenter.org/resources/</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/about/.</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/services/.</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/testimonies/.</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/events/.</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/serve/.</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/serve/Volunteer%20Application.pdf</loc>
+  <lastmod>2020-06-05T12:08:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/contact/.</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/donate/.</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vchcenter.org/podcast/.</loc>
+  <lastmod>2020-06-05T12:08:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
