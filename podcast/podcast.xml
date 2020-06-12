@@ -315,7 +315,6 @@
         </item>
         <!--END REPEAT-->
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
-        <!-- DELETE THIS LINE TO MAKE THIS EPISODE LIVE
         <item>
             <title>Obstacles the Homeless Face</title>
             <itunes:author>Chris Aaron Rice</itunes:author>
@@ -324,12 +323,11 @@
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
             <enclosure length="37611494" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast20.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast20.mp3</guid>
-            <pubDate>Fri, 12 Jun 2020 08:00:00 -0500</pubDate>
+            <pubDate>Fri, 12 Jun 2020 09:51:00 -0500</pubDate>
             <itunes:duration>26:07</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
         </item>
-        DELETE THIS LINE TO MAKE THIS EPISODE LIVE -->
         <!--END REPEAT-->
     </channel>
 </rss>
