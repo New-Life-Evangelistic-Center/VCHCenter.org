@@ -21,6 +21,7 @@ git update-index --assume-unchanged podcast\podcast17.mp3
 git update-index --assume-unchanged podcast\podcast18.mp3
 git update-index --assume-unchanged podcast\podcast19.mp3
 git update-index --assume-unchanged podcast\podcast20.mp3
+git update-index --assume-unchanged podcast\podcast21.mp3
 ```
 
 ## Revert
