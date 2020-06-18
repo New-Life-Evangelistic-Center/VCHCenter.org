@@ -344,7 +344,7 @@
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
         </item>
-        <!--END REPEAT-->
         DELETE THIS LINE TO MAKE IT LIVE-->
+        <!--END REPEAT-->
     </channel>
 </rss>
