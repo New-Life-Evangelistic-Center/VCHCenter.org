@@ -344,5 +344,22 @@
             <link>https://vchcenter.org/podcast/</link>
         </item>
         <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <!--Delete
+        <item>
+            <title>Who is Your Neighbor</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>What does Jesus mean when he talks about mercy and compassion for sinners? Join us as we share what it means to be a neighbor in the Bible.</itunes:subtitle>
+            <itunes:summary>Chris and Katie share what Biblical compassion looks like and we hear a story of Linda. Join us in this exciting episode of Stories of the Forgotten.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="36486135" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast22.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast22.mp3</guid>
+            <pubDate>Fri, 26 Jun 2020 08:00:00 -0500</pubDate>
+            <itunes:duration>25:20</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        Delete-->
+        <!--END REPEAT-->
     </channel>
 </rss>
