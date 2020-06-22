@@ -330,7 +330,6 @@
         </item>
         <!--END REPEAT-->
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
-        <!-- DELETE THIS LINE TO MAKE IT LIVE
         <item>
             <title>Stories of the Forgotten</title>
             <itunes:author>Chris Aaron Rice</itunes:author>
@@ -344,7 +343,6 @@
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
         </item>
-        DELETE THIS LINE TO MAKE IT LIVE-->
         <!--END REPEAT-->
     </channel>
 </rss>
