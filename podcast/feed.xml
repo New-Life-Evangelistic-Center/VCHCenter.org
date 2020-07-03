@@ -360,21 +360,19 @@
         </item>
         <!--END REPEAT-->
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
-        <!--Delete
         <item>
             <title>Who is Your Neighbor</title>
             <itunes:author>Chris Aaron Rice</itunes:author>
             <itunes:subtitle>Society teaches that productivity is the highest form of good. When someone becomes homeless people see them as less than human. How do we challenge these sentiments?</itunes:subtitle>
             <itunes:summary>Chris and Katie share their experience and thoughts on the aging population of homeless individuals and how that impacts our society. What should the Church’s response be to this phenomenon?</itunes:summary>
             <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
-            <enclosure length="36486135" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast23.mp3"/>
+            <enclosure length="37877933" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast23.mp3"/>
             <guid>https://vchcenter.org/podcast/podcast23.mp3</guid>
             <pubDate>Fri, 03 Jul 2020 08:00:00 -0500</pubDate>
-            <itunes:duration>25:20</itunes:duration>
+            <itunes:duration>26:18</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
         </item>
-        Delete-->
         <!--END REPEAT-->
     </channel>
 </rss>
