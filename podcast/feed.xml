@@ -374,5 +374,22 @@
             <link>https://vchcenter.org/podcast/</link>
         </item>
         <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <!--DELETE
+        <item>
+            <title>Wordy</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>How do our words impact the lives of others?</itunes:subtitle>
+            <itunes:summary>Join Chris and Katie as they discuss the important impact words have on the lives of those around us. How do the words we choose impact the homeless and hurting in our communities?</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="41529677" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast24.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast24.mp3</guid>
+            <pubDate>Fri, 10 Jul 2020 08:00:00 -0500</pubDate>
+            <itunes:duration>28:50</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        DELETE-->
+        <!--END REPEAT-->
     </channel>
 </rss>
