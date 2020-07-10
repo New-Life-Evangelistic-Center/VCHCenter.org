@@ -375,7 +375,6 @@
         </item>
         <!--END REPEAT-->
         <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
-        <!--DELETE
         <item>
             <title>Wordy</title>
             <itunes:author>Chris Aaron Rice</itunes:author>
@@ -389,7 +388,6 @@
             <itunes:explicit>no</itunes:explicit>
             <link>https://vchcenter.org/podcast/</link>
         </item>
-        DELETE-->
         <!--END REPEAT-->
     </channel>
 </rss>
