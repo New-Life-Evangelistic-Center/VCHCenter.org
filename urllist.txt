@@ -6,7 +6,7 @@ https://vchcenter.org/testimonies/
 https://vchcenter.org/events/
 https://vchcenter.org/serve/
 https://vchcenter.org/contact/
-https://vchcenter.org/donate/
+https://vchcenter.org/give/
 https://vchcenter.org/podcast/
 https://vchcenter.org/prayer-wall/
 https://vchcenter.org/resources/
@@ -17,5 +17,5 @@ https://vchcenter.org/events/.
 https://vchcenter.org/serve/.
 https://vchcenter.org/serve/Volunteer%20Application.pdf
 https://vchcenter.org/contact/.
-https://vchcenter.org/donate/.
+https://vchcenter.org/give/.
 https://vchcenter.org/podcast/.
