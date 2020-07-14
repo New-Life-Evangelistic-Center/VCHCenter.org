@@ -41,6 +41,29 @@
             }
         </style>
     </noscript>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body class="is-preload">
@@ -123,78 +146,46 @@
                     </p>
                     <div class="inner">
                         <h2>Levels of Giving</h2>
-                        <table style="width: 100%; text-align: center;">
-                            <tbody>
-                                <tr>
-                                    <th
-                                        style="font-weight: bolder; text-align: center; padding: 20px 20px 20px 20px; background-color: #c29c64; color: #ffffff; width: 25%">
-                                        Level 1</th>
-                                    <th
-                                        style="font-weight: bolder; text-align: center; padding: 20px 20px 20px 20px; background-color: #b68b4a; color: #ffffff; width: 25%">
-                                        Level 2</th>
-                                    <th
-                                        style="font-weight: bolder; text-align: center; padding: 20px 20px 20px 20px; background-color: #b17f33; color: #ffffff; width: 25%">
-                                        Level 3</th>
-                                    <th
-                                        style="font-weight: bolder; text-align: center; padding: 20px 20px 20px 20px; background-color: #a16d1d; color: #ffffff; width: 25%">
-                                        Level 4</th>
-                                </tr>
-                                <tr>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #c29c64; color: #ffffff;">
-                                        $5 Monthly</td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #b68b4a; color: #ffffff;">
-                                        $10 Monthly</td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #b17f33; color: #ffffff;">
-                                        $25 Monthly</td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #a16d1d; color: #ffffff;">
-                                        $50 Monthly</td>
-                                </tr>
-                                <tr>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #c29c64; color: #ffffff;">
-                                        Helps provide hygiene needs
-                                        of the homeless</td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #b68b4a; color: #ffffff;">
-                                        Helps feed 150 people a day
-                                    </td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #b17f33; color: #ffffff;">
-                                        Helps provide transportation
-                                        assistance to 100's</td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #a16d1d; color: #ffffff;">
-                                        Helps change lives in our
-                                        adult training program (recommended)</td>
-                                </tr>
-                                <tr>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #c29c64; color: #ffffff;">
-                                        <a style="color: #AA6600; margin-top: 25px; margin-bottom: 25px;"
-                                            href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=68"
-                                            target="_blank" class="button primary"><span>Give</span></a></td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #b68b4a; color: #ffffff;">
-                                        <a style="color: #AA6600; margin-top: 25px; margin-bottom: 25px;"
-                                            href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=68"
-                                            target="_blank" class="button primary"><span>Give</span></a></td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #b17f33; color: #ffffff;">
-                                        <a style="color: #AA6600; margin-top: 25px; margin-bottom: 25px;"
-                                            href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=68"
-                                            target="_blank" class="button primary"><span>Give</span></a></td>
-                                    <td
-                                        style="padding: 20px 20px 20px 20px; background-color: #a16d1d; color: #ffffff;">
-                                        <a style="color: #AA6600; margin-top: 25px; margin-bottom: 25px;"
-                                            href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=68"
-                                            target="_blank" class="button primary"><span>Give</span></a></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="row">
+                            <div class="column"
+                                style="background-color:rgb(161, 109, 29, 0.6);color:white;text-align: center;">
+                                <h2 style="color:white;">Level 1</h2>
+                                <p>$5 Monthly</p>
+                                <p>Helps provide hygiene needs of the homeless</p>
+                                <a style="color: #AA6600; margin-top: 25px; margin-bottom: 25px;"
+                                    href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=68"
+                                    target="_blank" class="button primary"><span>Give</span></a>
+                            </div>
+                            <div class="column"
+                                style="background-color:rgb(161, 109, 29, 0.75);color:white;text-align: center;">
+                                <h2 style="color:white;">Level 2</h2>
+                                <p>$10 Monthly</p>
+                                <p>Helps feed 150 people a day</p>
+                                <a style="color: #AA6600; margin-top: 25px; margin-bottom: 25px;"
+                                    href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=68"
+                                    target="_blank" class="button primary"><span>Give</span></a>
+                            </div>
+                            <div class="column"
+                                style="background-color:rgb(161, 109, 29, 0.8);color:white;text-align: center;">
+                                <h2 style="color:white;">Level 3</h2>
+                                <p>$25 Monthly</p>
+                                <p>Helps provide transportation assistance to 100's</p>
+                                <p></p>
+                                <a style="color: #AA6600; margin-top: 25px; margin-bottom: 25px;"
+                                    href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=68"
+                                    target="_blank" class="button primary"><span>Give</span></a>
+                            </div>
+                            <div class="column"
+                                style="background-color:rgb(161, 109, 29, 0.95);color:white;text-align: center;">
+                                <h2 style="color:white;">Level 4</h2>
+                                <p>$50 Monthly</p>
+                                <p>Helps change lives in our adult training program (recommended)</p>
+                                <a style="color: #AA6600; margin-top: 25px; margin-bottom: 25px;"
+                                    href="https://interland3.donorperfect.net/weblink/weblink.aspx?name=E155144&id=68"
+                                    target="_blank" class="button primary"><span>Give</span></a>
+                            </div>
+                        </div>
+
                     </div>
 
                     <hr>
