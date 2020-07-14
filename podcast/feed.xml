@@ -389,5 +389,22 @@
             <link>https://vchcenter.org/podcast/</link>
         </item>
         <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <!--DELETE
+        <item>
+            <title>Who is My Family?</title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Homelessness creates community. Today we talk about who our family really is.</itunes:subtitle>
+            <itunes:summary>What makes a healthy family? Is it blood, time, environment, or something else? Join us as we talk about how community impacts the lives of unsheltered around the US.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="36169977" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast25.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast25.mp3</guid>
+            <pubDate>Fri, 17 Jul 2020 08:00:00 -0500</pubDate>
+            <itunes:duration>25:07</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        DELETE-->
+        <!--END REPEAT-->
     </channel>
 </rss>
