@@ -3,6 +3,7 @@
     <channel>
         <title>Stories of the Forgotten</title>
         <link>https://podcast.vchcenter.org/</link>
+        <!-- REMOVE THIS LINE AFTER A WEEK OR SO -->
         <itunes:new-feed-url>https://podcast.nlecstl.org/the-forgotten/feed.xml</itunes:new-feed-url>
         <language>en-us</language>
         <copyright>℗ &amp; © 2019 - 2020 New Life Evangelistic Center</copyright>
