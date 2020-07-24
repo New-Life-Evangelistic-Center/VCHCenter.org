@@ -404,5 +404,21 @@
             <link>https://vchcenter.org/podcast/</link>
         </item>
         <!--END REPEAT-->
+        <!--REPEAT THIS BLOCK FOR EACH EPISODE-->
+        <item>
+            <title>Homelessness, Immigration, and Polo Shirts</title>
+            <itunes:title>Homelessness, Immigration, and Polo Shirts</itunes:title>
+            <itunes:author>Chris Aaron Rice</itunes:author>
+            <itunes:subtitle>Katie and Chris address new COVID-19 changes and conversations they have with those they serve.</itunes:subtitle>
+            <itunes:summary>Join us as we discuss city changes and how they impact the homeless. We will talk a little about immigration and different perspectives of those we serve.</itunes:summary>
+            <itunes:image href="https://vchcenter.org/podcast/podcast_icon.jpg"/>
+            <enclosure length="29966157" type="audio/mpeg" url="https://vchcenter.org/podcast/podcast26.mp3"/>
+            <guid>https://vchcenter.org/podcast/podcast26.mp3</guid>
+            <pubDate>Fri, 24 Jul 2020 15:14:00 -0500</pubDate>
+            <itunes:duration>31:12</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>https://vchcenter.org/podcast/</link>
+        </item>
+        <!--END REPEAT-->
     </channel>
 </rss>
